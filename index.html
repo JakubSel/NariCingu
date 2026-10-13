@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="sk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Tréner kórejskej výslovnosti a počúvania pre slovenských študentov." />
+    <meta name="theme-color" content="#4f46e5" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%234f46e5'/><text x='32' y='44' font-size='34' text-anchor='middle' fill='white' font-family='sans-serif'>소</text></svg>" />
+    <title>NariCingu – kórejská výslovnosť</title>
+    <script>
+      try {
+        var s = JSON.parse(localStorage.getItem('naricingu:settings') || '{}');
+        var t = s.theme || 'system';
+        if (t === 'dark' || (t === 'system' && matchMedia('(prefers-color-scheme: dark)').matches))
+          document.documentElement.classList.add('dark');
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

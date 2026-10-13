@@ -1,0 +1,182 @@
+{
+  "intro": "Kórejčina sa často nevyslovuje tak, ako sa píše. Písmo zachováva pôvodný tvar slova, ale v reči sa susedné zvuky navzájom ovplyvňujú – aby sa dali vysloviť ľahko a plynulo. Keď poznáš pravidlá, prestaneš byť prekvapený a začneš rozumieť rýchlej reči.",
+  "rules": [
+    {
+      "id": "batchim",
+      "title": "Koncové spoluhlásky",
+      "korean": "받침",
+      "short": "Na konci slabiky zaznie len 7 zvukov.",
+      "explanation": "받침 je spoluhláska na konci slabiky. Hoci sa tam môže písať takmer akékoľvek písmeno, vysloviť sa dá len 7 zvukov: ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅇ. Ostatné sa „zjednodušia“. Koncové k, t, p sa navyše nedopovedajú – jazyk alebo pery sa zatvoria a vzduch neunikne.",
+      "pattern": [
+        "ㄱ ㄲ ㅋ → [ㄱ] (k)",
+        "ㄷ ㅅ ㅆ ㅈ ㅊ ㅌ ㅎ → [ㄷ] (t)",
+        "ㅂ ㅍ → [ㅂ] (p)",
+        "Dvojitý 받침 (ㄺ, ㅄ, ㄳ…) → vysloví sa len jedno písmeno"
+      ],
+      "examples": [
+        { "written": "옷", "meaning": "oblečenie", "naive": "os", "actual": "옫", "actualRom": "ot", "explanation": "ㅅ na konci slabiky nemôže znieť ako s – zmení sa na nedopovedané t.", "distractors": ["오스", "옥"] },
+        { "written": "꽃", "meaning": "kvet", "naive": "kkoč", "actual": "꼳", "actualRom": "kkot", "explanation": "ㅊ na konci slabiky → t.", "distractors": ["꼬츠", "꼭"] },
+        { "written": "부엌", "meaning": "kuchyňa", "naive": "bueokh", "actual": "부억", "actualRom": "bueok", "explanation": "ㅋ na konci slabiky → obyčajné, nedopovedané k.", "distractors": ["부어크", "부얻"] },
+        { "written": "앞", "meaning": "predok, vpredu", "naive": "aph", "actual": "압", "actualRom": "ap", "explanation": "ㅍ na konci slabiky → p so zatvorenými perami.", "distractors": ["아프", "앋"] },
+        { "written": "읽다", "meaning": "čítať", "naive": "ilk-da", "actual": "익따", "actualRom": "ikta", "explanation": "Z dvojitého ㄺ sa vysloví len ㄱ. Po ňom sa ㄷ sprísni na ㄸ (tenzifikácia).", "distractors": ["일따", "익다"] },
+        { "written": "닭", "meaning": "kura, sliepka", "naive": "dalk", "actual": "닥", "actualRom": "dak", "explanation": "Z ㄺ ostane len ㄱ – ㄹ sa nevysloví.", "distractors": ["달", "달기"] },
+        { "written": "값", "meaning": "cena", "naive": "gaps", "actual": "갑", "actualRom": "gap", "explanation": "Z ㅄ ostane len ㅂ.", "distractors": ["갓", "감"] },
+        { "written": "있다", "meaning": "byť, mať", "naive": "iss-da", "actual": "읻따", "actualRom": "itta", "explanation": "ㅆ na konci slabiky → t, a nasledujúce ㄷ sa sprísni na ㄸ.", "distractors": ["잇다", "인다"] }
+      ]
+    },
+    {
+      "id": "nasalization",
+      "title": "Nazalizácia",
+      "korean": "비음화",
+      "short": "k, t, p pred n/m → ng, n, m",
+      "explanation": "Keď sa koncové k, t, p stretne s n alebo m, zmení sa na nosový zvuk. Ústa sa už chystajú na nosové n/m, a tak sa „nos zapne“ skôr: k → ng, t → n, p → m. Toto je najčastejšia zmena v kórejčine – počuješ ju v každom 감사합니다.",
+      "pattern": [
+        "ㄱ + ㄴ/ㅁ → [ㅇ] (k → ng)",
+        "ㄷ + ㄴ/ㅁ → [ㄴ] (t → n)",
+        "ㅂ + ㄴ/ㅁ → [ㅁ] (p → m)",
+        "ㄹ po ㅁ alebo ㅇ → [ㄴ]"
+      ],
+      "examples": [
+        { "written": "걷는", "meaning": "kráčajúci", "naive": "geot-neun", "actual": "건는", "actualRom": "geonneun", "explanation": "ㄷ pred ㄴ sa zmení na ㄴ: t → n.", "distractors": ["걷는", "걸른"] },
+        { "written": "한국말", "meaning": "kórejský jazyk", "naive": "han-guk-mal", "actual": "한궁말", "actualRom": "hangungmal", "explanation": "ㄱ pred ㅁ sa zmení na ㅇ: k → ng.", "distractors": ["한국말", "항궁말"] },
+        { "written": "감사합니다", "meaning": "ďakujem", "naive": "gam-sa-hap-ni-da", "actual": "감사함니다", "actualRom": "gamsahamnida", "explanation": "ㅂ pred ㄴ sa zmení na ㅁ: p → m. Platí pre všetky tvary -ㅂ니다.", "distractors": ["감사합니다", "감사한니다"] },
+        { "written": "먹는", "meaning": "jediaci", "naive": "meok-neun", "actual": "멍는", "actualRom": "meongneun", "explanation": "ㄱ pred ㄴ → ㅇ.", "distractors": ["먹는", "먼는"] },
+        { "written": "국물", "meaning": "vývar", "naive": "guk-mul", "actual": "궁물", "actualRom": "gungmul", "explanation": "ㄱ pred ㅁ → ㅇ.", "distractors": ["국물", "굼물"] },
+        { "written": "작년", "meaning": "minulý rok", "naive": "jak-nyeon", "actual": "장년", "actualRom": "jangnyeon", "explanation": "ㄱ pred ㄴ → ㅇ.", "distractors": ["작년", "잔년"] },
+        { "written": "입니다", "meaning": "je (zdvorilo)", "naive": "ip-ni-da", "actual": "임니다", "actualRom": "imnida", "explanation": "ㅂ pred ㄴ → ㅁ.", "distractors": ["입니다", "인니다"] },
+        { "written": "종로", "meaning": "Čongno (štvrť v Soule)", "naive": "jong-ro", "actual": "종노", "actualRom": "jongno", "explanation": "ㄹ po ㅇ sa zmení na ㄴ.", "distractors": ["종로", "졸로"] },
+        { "written": "대통령", "meaning": "prezident", "naive": "dae-tong-ryeong", "actual": "대통녕", "actualRom": "daetongnyeong", "explanation": "ㄹ po ㅇ → ㄴ.", "distractors": ["대통령", "대톨령"] }
+      ]
+    },
+    {
+      "id": "liaison",
+      "title": "Spojenie",
+      "korean": "연음",
+      "short": "Spoluhláska „preskočí“ do ďalšej slabiky.",
+      "explanation": "Keď slabika končí spoluhláskou a ďalšia začína nemým ㅇ, spoluhláska sa presunie do ďalšej slabiky. Píše sa oddelene, ale vyslovuje sa spolu – ako keď v slovenčine rýchlo povieš „pod oknom“ a znie to „podoknom“. Pri dvojitom 받침 sa presunie len druhé písmeno.",
+      "pattern": [
+        "spoluhláska + ㅇ → spoluhláska sa presunie: 음악 → [으막]",
+        "dvojitý 받침: presunie sa druhé písmeno: 읽어 → [일거]",
+        "ㅇ (ng) sa nepresúva; ㅎ pred samohláskou zmizne"
+      ],
+      "examples": [
+        { "written": "없어", "meaning": "nie je; nemám", "naive": "eops-eo", "actual": "업써", "actualRom": "eopsseo", "explanation": "Z ㅄ ostane ㅂ na mieste, ㅅ preskočí do ďalšej slabiky a po ㅂ sa sprísni na ㅆ.", "distractors": ["어서", "업서"] },
+        { "written": "음악", "meaning": "hudba", "naive": "eum-ak", "actual": "으막", "actualRom": "eumak", "explanation": "ㅁ preskočí na začiatok ďalšej slabiky.", "distractors": ["음악", "음막"] },
+        { "written": "한국어", "meaning": "kórejčina", "naive": "han-guk-eo", "actual": "한구거", "actualRom": "hangugeo", "explanation": "ㄱ preskočí a medzi samohláskami znie ako g.", "distractors": ["한국어", "한구커"] },
+        { "written": "옷이", "meaning": "oblečenie (podmet)", "naive": "ot-i", "actual": "오시", "actualRom": "osi", "explanation": "ㅅ preskočí – a keďže už nie je na konci, znova znie ako s (pred i ako mäkké š).", "distractors": ["오디", "옫이"] },
+        { "written": "읽어요", "meaning": "čítam", "naive": "ik-eo-yo", "actual": "일거요", "actualRom": "ilgeoyo", "explanation": "Z ㄺ ostane ㄹ, ㄱ preskočí do ďalšej slabiky.", "distractors": ["이커요", "익어요"] },
+        { "written": "앉아요", "meaning": "sedím", "naive": "an-a-yo", "actual": "안자요", "actualRom": "anjayo", "explanation": "Z ㄵ ostane ㄴ, ㅈ preskočí.", "distractors": ["아나요", "안아요"] },
+        { "written": "꽃이", "meaning": "kvet (podmet)", "naive": "kkot-i", "actual": "꼬치", "actualRom": "kkochi", "explanation": "ㅊ preskočí a znova znie ako ㅊ.", "distractors": ["꼬시", "꼳이"] },
+        { "written": "있어요", "meaning": "je; mám", "naive": "it-eo-yo", "actual": "이써요", "actualRom": "isseoyo", "explanation": "ㅆ preskočí do ďalšej slabiky celé.", "distractors": ["이서요", "읻어요"] }
+      ]
+    },
+    {
+      "id": "tensification",
+      "title": "Tenzifikácia",
+      "korean": "경음화",
+      "short": "Po k, t, p sa ㄱ ㄷ ㅂ ㅅ ㅈ sprísnia.",
+      "explanation": "Po koncových k, t, p sa nasledujúce ㄱ, ㄷ, ㅂ, ㅅ, ㅈ vyslovia napäto – ako ㄲ, ㄸ, ㅃ, ㅆ, ㅉ. Hrdlo je ešte stiahnuté z predchádzajúcej spoluhlásky, a tak ďalšia vyjde tvrdo. V písme to nevidno, preto to treba počuť.",
+      "pattern": [
+        "k/t/p + ㄱ → [ㄲ]",
+        "k/t/p + ㄷ → [ㄸ]",
+        "k/t/p + ㅂ → [ㅃ]",
+        "k/t/p + ㅅ → [ㅆ]",
+        "k/t/p + ㅈ → [ㅉ]",
+        "aj po -(으)ㄹ v budúcom čase a v zložených slovách"
+      ],
+      "examples": [
+        { "written": "학교", "meaning": "škola", "naive": "hak-gyo", "actual": "학꾜", "actualRom": "hakkyo", "explanation": "Po ㄱ sa ㄱ sprísni na ㄲ.", "distractors": ["학교", "항교"] },
+        { "written": "식당", "meaning": "reštaurácia, jedáleň", "naive": "sik-dang", "actual": "식땅", "actualRom": "sikttang", "explanation": "Po ㄱ sa ㄷ sprísni na ㄸ.", "distractors": ["식당", "신당"] },
+        { "written": "국밥", "meaning": "polievka s ryžou", "naive": "guk-bap", "actual": "국빱", "actualRom": "gukppap", "explanation": "Po ㄱ sa ㅂ sprísni na ㅃ.", "distractors": ["국밥", "구빱"] },
+        { "written": "잡지", "meaning": "časopis", "naive": "jap-ji", "actual": "잡찌", "actualRom": "japjji", "explanation": "Po ㅂ sa ㅈ sprísni na ㅉ.", "distractors": ["잡지", "자찌"] },
+        { "written": "숙제", "meaning": "domáca úloha", "naive": "suk-je", "actual": "숙쩨", "actualRom": "sukjje", "explanation": "Po ㄱ sa ㅈ sprísni na ㅉ.", "distractors": ["숙제", "숭제"] },
+        { "written": "듣고", "meaning": "počúvajúc, počúvam a…", "naive": "deut-go", "actual": "듣꼬", "actualRom": "deutkko", "explanation": "Po ㄷ sa ㄱ sprísni na ㄲ.", "distractors": ["듣고", "든고"] },
+        { "written": "할 거예요", "meaning": "urobím", "naive": "hal geo-ye-yo", "actual": "할 꺼예요", "actualRom": "hal kkeoyeyo", "explanation": "Po budúcom -ㄹ sa ㄱ sprísni, aj keď je to ďalšie slovo.", "distractors": ["할 거예요", "할 커예요"] },
+        { "written": "눈사람", "meaning": "snehuliak", "naive": "nun-sa-ram", "actual": "눈싸람", "actualRom": "nunssaram", "explanation": "V zložených slovách sa druhá časť často sprísni, hoci to v písme nevidno. Toto sa treba naučiť pri slove.", "distractors": ["눈사람", "누사람"] }
+      ]
+    },
+    {
+      "id": "aspiration",
+      "title": "Aspirácia a zánik ㅎ",
+      "korean": "격음화",
+      "short": "ㅎ + k/t/p/č → kh/th/ph/čh",
+      "explanation": "ㅎ je vlastne len výdych. Keď sa stretne s ㄱ, ㄷ, ㅂ, ㅈ (pred nimi alebo za nimi), spojí sa s nimi do zvuku s výdychom: ㅋ, ㅌ, ㅍ, ㅊ. Medzi samohláskami a po ㄴ, ㅁ, ㄹ, ㅇ naopak ㅎ často úplne zmizne.",
+      "pattern": [
+        "ㄱ + ㅎ alebo ㅎ + ㄱ → [ㅋ]",
+        "ㄷ + ㅎ alebo ㅎ + ㄷ → [ㅌ]",
+        "ㅂ + ㅎ → [ㅍ]",
+        "ㅈ + ㅎ alebo ㅎ + ㅈ → [ㅊ]",
+        "ㅎ pred samohláskou → zmizne"
+      ],
+      "examples": [
+        { "written": "좋다", "meaning": "dobrý", "naive": "joh-da", "actual": "조타", "actualRom": "jota", "explanation": "ㅎ + ㄷ sa spoja do ㅌ.", "distractors": ["좋다", "조다"] },
+        { "written": "축하해요", "meaning": "gratulujem", "naive": "chuk-ha-hae-yo", "actual": "추카해요", "actualRom": "chukahaeyo", "explanation": "ㄱ + ㅎ sa spoja do ㅋ.", "distractors": ["축하해요", "추가해요"] },
+        { "written": "입학", "meaning": "nástup do školy", "naive": "ip-hak", "actual": "이팍", "actualRom": "ipak", "explanation": "ㅂ + ㅎ sa spoja do ㅍ.", "distractors": ["입학", "이박"] },
+        { "written": "많다", "meaning": "je toho veľa", "naive": "manh-da", "actual": "만타", "actualRom": "manta", "explanation": "Z ㄶ ostane ㄴ a ㅎ + ㄷ dá ㅌ.", "distractors": ["만다", "말타"] },
+        { "written": "좋아요", "meaning": "je to dobré; páči sa mi", "naive": "joh-a-yo", "actual": "조아요", "actualRom": "joayo", "explanation": "ㅎ pred samohláskou úplne zmizne.", "distractors": ["조하요", "조타요"] },
+        { "written": "괜찮아요", "meaning": "to je v poriadku", "naive": "gwaen-chanh-a-yo", "actual": "괜차나요", "actualRom": "gwaenchanayo", "explanation": "ㅎ z ㄶ zmizne a ㄴ preskočí do ďalšej slabiky.", "distractors": ["괜찬하요", "괜차타요"] },
+        { "written": "많이", "meaning": "veľa", "naive": "manh-i", "actual": "마니", "actualRom": "mani", "explanation": "ㅎ zmizne, ㄴ preskočí.", "distractors": ["만히", "마히"] }
+      ]
+    },
+    {
+      "id": "palatalization",
+      "title": "Palatalizácia",
+      "korean": "구개음화",
+      "short": "ㄷ/ㅌ + 이 → 지/치",
+      "explanation": "Keď za koncovým ㄷ alebo ㅌ nasleduje 이, zmenia sa na ㅈ a ㅊ. Jazyk sa pri i dvíha k podnebiu a z t sa stane č. Slováci to poznajú: píšeme „ti“, ale vyslovujeme „ťi“ – princíp je rovnaký.",
+      "pattern": [
+        "ㄷ + 이 → [지]",
+        "ㅌ + 이 → [치]",
+        "ㄷ + 히 → [치]"
+      ],
+      "examples": [
+        { "written": "같이", "meaning": "spolu", "naive": "gat-i", "actual": "가치", "actualRom": "gachi", "explanation": "ㅌ pred 이 sa zmení na ㅊ.", "distractors": ["가티", "가시"] },
+        { "written": "굳이", "meaning": "zbytočne, nevyhnutne", "naive": "gud-i", "actual": "구지", "actualRom": "guji", "explanation": "ㄷ pred 이 sa zmení na ㅈ.", "distractors": ["구디", "구치"] },
+        { "written": "해돋이", "meaning": "východ slnka", "naive": "hae-dod-i", "actual": "해도지", "actualRom": "haedoji", "explanation": "ㄷ pred 이 → ㅈ.", "distractors": ["해도디", "해도치"] },
+        { "written": "밭이", "meaning": "pole (podmet)", "naive": "bat-i", "actual": "바치", "actualRom": "bachi", "explanation": "ㅌ pred 이 → ㅊ.", "distractors": ["바티", "바시"] },
+        { "written": "닫히다", "meaning": "zavrieť sa", "naive": "dat-hi-da", "actual": "다치다", "actualRom": "dachida", "explanation": "ㄷ + 히: najprv vznikne ㅌ (aspirácia), potom pred i ㅊ.", "distractors": ["다티다", "단히다"] }
+      ]
+    },
+    {
+      "id": "lateralization",
+      "title": "Lateralizácia",
+      "korean": "유음화",
+      "short": "ㄴ + ㄹ alebo ㄹ + ㄴ → ll",
+      "explanation": "Keď sa stretne ㄴ a ㄹ – v akomkoľvek poradí – obe sa vyslovia ako ㄹ, teda dlhé ll. Jazyk ostane pri ďasnách a nos sa „vypne“.",
+      "pattern": [
+        "ㄴ + ㄹ → [ㄹㄹ]",
+        "ㄹ + ㄴ → [ㄹㄹ]"
+      ],
+      "examples": [
+        { "written": "신라", "meaning": "Silla (staroveké kráľovstvo)", "naive": "sin-ra", "actual": "실라", "actualRom": "silla", "explanation": "ㄴ + ㄹ → ㄹㄹ.", "distractors": ["신나", "신라"] },
+        { "written": "연락", "meaning": "kontakt, správa", "naive": "yeon-rak", "actual": "열락", "actualRom": "yeollak", "explanation": "ㄴ + ㄹ → ㄹㄹ.", "distractors": ["연낙", "연락"] },
+        { "written": "설날", "meaning": "lunárny Nový rok", "naive": "seol-nal", "actual": "설랄", "actualRom": "seollal", "explanation": "ㄹ + ㄴ → ㄹㄹ.", "distractors": ["선날", "설날"] },
+        { "written": "일년", "meaning": "jeden rok", "naive": "il-nyeon", "actual": "일련", "actualRom": "illyeon", "explanation": "ㄹ + ㄴ → ㄹㄹ.", "distractors": ["인년", "일년"] },
+        { "written": "편리", "meaning": "pohodlie", "naive": "pyeon-ri", "actual": "펼리", "actualRom": "pyeolli", "explanation": "ㄴ + ㄹ → ㄹㄹ.", "distractors": ["편니", "편리"] }
+      ]
+    },
+    {
+      "id": "spoken",
+      "title": "Bežné hovorené zmeny",
+      "korean": "구어",
+      "short": "Čo počuješ v seriáloch, ale nie v učebnici.",
+      "explanation": "V bežnej, rýchlej reči Kórejci zvuky skracujú a zjednodušujú. Spisovná výslovnosť to často neuvádza, ale v seriáloch, piesňach a rozhovoroch to počuješ stále. Tu sa nahrávka prehráva v hovorovej podobe.",
+      "pattern": [
+        "ㅎ po ㄴ, ㅁ, ㄹ, ㅇ v rýchlej reči slabne",
+        "-고 → -구, -도 → -두 (hovorovo)",
+        "zložené tvary sa sťahujú: 저는 → 전, 것이 → 게",
+        "privlastňovacie 의 → [에]"
+      ],
+      "examples": [
+        { "written": "전화", "meaning": "telefón", "naive": "jeon-hwa", "actual": "저놔", "actualRom": "jeonwa", "audioText": "저놔", "explanation": "ㅎ medzi ㄴ a samohláskou v rýchlej reči takmer zmizne a ㄴ sa spojí s ďalšou slabikou.", "distractors": ["전하", "저나"] },
+        { "written": "은행", "meaning": "banka", "naive": "eun-haeng", "actual": "으냉", "actualRom": "eunaeng", "audioText": "으냉", "explanation": "Oslabené ㅎ – ㄴ preskočí do ďalšej slabiky.", "distractors": ["은행", "으행"] },
+        { "written": "결혼", "meaning": "svadba, manželstvo", "naive": "gyeol-hon", "actual": "겨론", "actualRom": "gyeoron", "audioText": "겨론", "explanation": "ㅎ po ㄹ zmizne a ㄹ znie medzi samohláskami ako krátke r.", "distractors": ["결혼", "겨혼"] },
+        { "written": "나도", "meaning": "aj ja", "naive": "na-do", "actual": "나두", "actualRom": "nadu", "audioText": "나두", "explanation": "Hovorovo sa ㅗ v časticiach a koncovkách mení na ㅜ: 나도 → 나두, 하고 → 하구.", "distractors": ["나도", "나투"] },
+        { "written": "저는", "meaning": "ja (téma)", "naive": "jeo-neun", "actual": "전", "actualRom": "jeon", "audioText": "전", "explanation": "Častica -는 sa skráti na -ㄴ a prilepí sa k slovu: 저는 → 전, 나는 → 난.", "distractors": ["저는", "점"] },
+        { "written": "이것이", "meaning": "toto (podmet)", "naive": "i-geot-i", "actual": "이게", "actualRom": "ige", "audioText": "이게", "explanation": "것이 sa v reči stiahne na 게. 이게 뭐예요? = Čo je toto?", "distractors": ["이거시", "이거"] },
+        { "written": "나의 친구", "meaning": "môj kamarát", "naive": "na-ui chin-gu", "actual": "나에 친구", "actualRom": "nae chingu", "audioText": "나에 친구", "explanation": "Privlastňovacia častica 의 sa vyslovuje ako [에].", "distractors": ["나의 친구", "나이 친구"] },
+        { "written": "맛있어요", "meaning": "je to chutné", "naive": "mat-it-eo-yo", "actual": "마시써요", "actualRom": "masisseoyo", "explanation": "ㅅ preskočí ako s, ㅆ tiež. Spisovne je možné aj [마디써요], ale počuť budeš takmer vždy [마시써요].", "distractors": ["마시서요", "맏이서요"] }
+      ]
+    }
+  ]
+}

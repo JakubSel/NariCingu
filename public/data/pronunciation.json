@@ -1,0 +1,326 @@
+{
+  "lessons": [
+    {
+      "id": "k",
+      "title": "ㄱ ㄲ ㅋ",
+      "subtitle": "Tri druhy „k“",
+      "chars": ["ㄱ", "ㄲ", "ㅋ"],
+      "summary": "Jemné k, napäté k a k s výdychom. Najdôležitejšia trojica v kórejčine – rovnaký princíp platí aj pre t, p a č.",
+      "theory": [
+        {
+          "heading": "Tri verzie jedného zvuku",
+          "text": "Slovenčina rozlišuje k a g. Kórejčina rozlišuje niečo iné: AKO sa k vysloví – jemne (ㄱ), napäto (ㄲ) alebo s výdychom (ㅋ). Pre slovenské ucho to spočiatku znie ako „trikrát to isté k“. To je normálne – ucho sa to dá naučiť."
+        },
+        {
+          "heading": "ㄱ – jemné k",
+          "text": "Na začiatku slova znie ako slabé, uvoľnené k s malým výdychom. Hlas na samohláske po ňom začína NÍZKO. Medzi samohláskami sa zmení na g: 고기 (mäso) znie približne „kogi“."
+        },
+        {
+          "heading": "ㄲ – napäté k",
+          "text": "Bez výdychu, ale so stiahnutým hrdlom – tvrdé a „čisté“. Hlas po ňom začína VYSOKO. Slovenské k nemá výdych, takže ak ho povieš rázne a dôrazne, si veľmi blízko ㄲ."
+        },
+        {
+          "heading": "ㅋ – k s výdychom",
+          "text": "Po k nasleduje jasný prúd vzduchu: „kh“. Daj si dlaň pred ústa – pri ㅋ musíš cítiť vzduch. Hlas po ňom začína tiež VYSOKO."
+        },
+        {
+          "heading": "Ako ich rozlíšiť sluchom",
+          "text": "1. Počúvaj výšku hlasu na samohláske: nízko = ㄱ, vysoko = ㄲ alebo ㅋ. 2. Ak je vysoko, počúvaj vzduch: šum výdychu = ㅋ, čisté a tvrdé = ㄲ."
+        }
+      ],
+      "profiles": [
+        { "char": "ㄱ", "label": "jemné", "slovak": "medzi k a g", "pitch": "nízko", "features": [{ "label": "Výdych", "value": 1 }, { "label": "Napätie", "value": 0 }] },
+        { "char": "ㄲ", "label": "napäté", "slovak": "rázne slovenské k", "pitch": "vysoko", "features": [{ "label": "Výdych", "value": 0 }, { "label": "Napätie", "value": 3 }] },
+        { "char": "ㅋ", "label": "s výdychom", "slovak": "k + h", "pitch": "vysoko", "features": [{ "label": "Výdych", "value": 3 }, { "label": "Napätie", "value": 1 }] }
+      ],
+      "tips": [
+        "Typická chyba Slovákov: vysloviť ㄱ ako tvrdé slovenské k. Kórejec to počuje ako ㄲ.",
+        "ㄱ na začiatku slova nevyslovuj ako znelé g – je to skôr veľmi mäkké, lenivé k.",
+        "Test s papierikom: drž pred ústami úzky prúžok papiera. Pri ㅋ sa výrazne pohne, pri ㄲ vôbec.",
+        "Pri ㄲ si predstav, že si sa zľakol: krátke, rázne „k!“."
+      ],
+      "comparison": [
+        { "syllables": ["가", "까", "카"] },
+        { "syllables": ["고", "꼬", "코"] },
+        { "syllables": ["기", "끼", "키"] },
+        { "syllables": ["구", "꾸", "쿠"] },
+        { "syllables": ["거", "꺼", "커"] },
+        { "syllables": ["개", "깨", "캐"] }
+      ],
+      "minimalSets": [
+        { "items": [{ "ko": "개다", "sk": "skladať (oblečenie)", "char": "ㄱ" }, { "ko": "깨다", "sk": "zobudiť sa; rozbiť", "char": "ㄲ" }, { "ko": "캐다", "sk": "vykopať", "char": "ㅋ" }] },
+        { "items": [{ "ko": "굴", "sk": "ustrica", "char": "ㄱ" }, { "ko": "꿀", "sk": "med", "char": "ㄲ" }, { "ko": "쿨", "sk": "cool (prevzaté)", "char": "ㅋ" }] },
+        { "items": [{ "ko": "기", "sk": "energia", "char": "ㄱ" }, { "ko": "끼", "sk": "talent; porcia jedla", "char": "ㄲ" }, { "ko": "키", "sk": "výška (postavy)", "char": "ㅋ" }] },
+        { "items": [{ "ko": "공", "sk": "lopta", "char": "ㄱ" }, { "ko": "콩", "sk": "fazuľa, sója", "char": "ㅋ" }] },
+        { "items": [{ "ko": "가다", "sk": "ísť", "char": "ㄱ" }, { "ko": "까다", "sk": "lúpať, šúpať", "char": "ㄲ" }] }
+      ]
+    },
+    {
+      "id": "t",
+      "title": "ㄷ ㄸ ㅌ",
+      "subtitle": "Tri druhy „t“",
+      "chars": ["ㄷ", "ㄸ", "ㅌ"],
+      "summary": "Jemné t, napäté t a t s výdychom. Rovnaký systém ako pri ㄱ ㄲ ㅋ, len jazyk je za zubami.",
+      "theory": [
+        {
+          "heading": "Rovnaký vzorec ako pri k",
+          "text": "Ak už poznáš ㄱ ㄲ ㅋ, máš vyhrané: ㄷ ㄸ ㅌ fungujú úplne rovnako. Jemné – napäté – s výdychom."
+        },
+        {
+          "heading": "ㄷ – jemné t",
+          "text": "Na začiatku slova uvoľnené t s malým výdychom, hlas po ňom NÍZKO. Medzi samohláskami sa mení na d: 바다 (more) znie ako „bada“."
+        },
+        {
+          "heading": "ㄸ – napäté t",
+          "text": "Tvrdé, stiahnuté t bez vzduchu, hlas VYSOKO. Slovenské t povedané rázne – napríklad „Ticho!“ – je veľmi blízko."
+        },
+        {
+          "heading": "ㅌ – t s výdychom",
+          "text": "t + jasný výdych: „th“. Nie anglické th v „the“, ale t, za ktorým uniká vzduch. Hlas VYSOKO."
+        },
+        {
+          "heading": "Ako ich rozlíšiť sluchom",
+          "text": "Nízky hlas = ㄷ. Vysoký hlas a šum vzduchu = ㅌ. Vysoký hlas a „čistý“ tvrdý začiatok = ㄸ."
+        }
+      ],
+      "profiles": [
+        { "char": "ㄷ", "label": "jemné", "slovak": "medzi t a d", "pitch": "nízko", "features": [{ "label": "Výdych", "value": 1 }, { "label": "Napätie", "value": 0 }] },
+        { "char": "ㄸ", "label": "napäté", "slovak": "rázne slovenské t", "pitch": "vysoko", "features": [{ "label": "Výdych", "value": 0 }, { "label": "Napätie", "value": 3 }] },
+        { "char": "ㅌ", "label": "s výdychom", "slovak": "t + h", "pitch": "vysoko", "features": [{ "label": "Výdych", "value": 3 }, { "label": "Napätie", "value": 1 }] }
+      ],
+      "tips": [
+        "Dvojica 달 (mesiac) – 딸 (dcéra) – 탈 (maska) je klasický test. Ak ich rozlíšiš, máš dobrý sluch.",
+        "Pri ㄷ na začiatku slova nehovor plné znelé d – kórejské ucho ho tak nevníma.",
+        "ㄸ nikdy nemá výdych. Ak ti po ňom unikne vzduch, zmení sa na ㅌ."
+      ],
+      "comparison": [
+        { "syllables": ["다", "따", "타"] },
+        { "syllables": ["도", "또", "토"] },
+        { "syllables": ["디", "띠", "티"] },
+        { "syllables": ["두", "뚜", "투"] },
+        { "syllables": ["더", "떠", "터"] },
+        { "syllables": ["대", "때", "태"] }
+      ],
+      "minimalSets": [
+        { "items": [{ "ko": "달", "sk": "mesiac", "char": "ㄷ" }, { "ko": "딸", "sk": "dcéra", "char": "ㄸ" }, { "ko": "탈", "sk": "maska", "char": "ㅌ" }] },
+        { "items": [{ "ko": "덕", "sk": "cnosť, zásluha", "char": "ㄷ" }, { "ko": "떡", "sk": "ryžový koláčik", "char": "ㄸ" }, { "ko": "턱", "sk": "brada (časť tváre)", "char": "ㅌ" }] },
+        { "items": [{ "ko": "동", "sk": "východ", "char": "ㄷ" }, { "ko": "통", "sk": "sud, nádoba", "char": "ㅌ" }] },
+        { "items": [{ "ko": "뜨다", "sk": "vznášať sa; otvoriť (oči)", "char": "ㄸ" }, { "ko": "트다", "sk": "otvoriť sa; vyklíčiť", "char": "ㅌ" }] }
+      ]
+    },
+    {
+      "id": "p",
+      "title": "ㅂ ㅃ ㅍ",
+      "subtitle": "Tri druhy „p“",
+      "chars": ["ㅂ", "ㅃ", "ㅍ"],
+      "summary": "Jemné p, napäté p a p s výdychom. Rozdiel výborne vidno aj cítiť – na perách.",
+      "theory": [
+        {
+          "heading": "Pery ti pomôžu",
+          "text": "Pri ㅂ ㅃ ㅍ pracujú pery, takže rozdiel môžeš priamo cítiť. Polož si dlaň pred ústa a vyslov všetky tri."
+        },
+        {
+          "heading": "ㅂ – jemné p",
+          "text": "Na začiatku slova uvoľnené p, pery sa zľahka oddelia, hlas NÍZKO. Medzi samohláskami znie ako b: 아버지 (otec) = „abodži“."
+        },
+        {
+          "heading": "ㅃ – napäté p",
+          "text": "Pery stlačené pevnejšie, žiadny vzduch, hlas VYSOKO. Ako keď rázne povieš „Pozor!“."
+        },
+        {
+          "heading": "ㅍ – p s výdychom",
+          "text": "Za p uniká silný prúd vzduchu: „ph“. Plamienok sviečky pred ústami by sa zachvel."
+        },
+        {
+          "heading": "Ako ich rozlíšiť sluchom",
+          "text": "Klasika: 불 (oheň) – 뿔 (roh) – 풀 (tráva). Nízky hlas = ㅂ, vysoký a vzduch = ㅍ, vysoký a tvrdý = ㅃ."
+        }
+      ],
+      "profiles": [
+        { "char": "ㅂ", "label": "jemné", "slovak": "medzi p a b", "pitch": "nízko", "features": [{ "label": "Výdych", "value": 1 }, { "label": "Napätie", "value": 0 }] },
+        { "char": "ㅃ", "label": "napäté", "slovak": "rázne slovenské p", "pitch": "vysoko", "features": [{ "label": "Výdych", "value": 0 }, { "label": "Napätie", "value": 3 }] },
+        { "char": "ㅍ", "label": "s výdychom", "slovak": "p + h", "pitch": "vysoko", "features": [{ "label": "Výdych", "value": 3 }, { "label": "Napätie", "value": 1 }] }
+      ],
+      "tips": [
+        "빵 (chlieb) vyslov ako rázne slovenské „pang“ – a si tam.",
+        "Pri ㅍ preháňaj výdych, kým si nezvykneš. Kórejci ho majú naozaj silný.",
+        "ㅂ na konci slabiky (밥) – pery sa zatvoria a ostanú zatvorené, nič nevydýchneš."
+      ],
+      "comparison": [
+        { "syllables": ["바", "빠", "파"] },
+        { "syllables": ["보", "뽀", "포"] },
+        { "syllables": ["비", "삐", "피"] },
+        { "syllables": ["부", "뿌", "푸"] },
+        { "syllables": ["버", "뻐", "퍼"] },
+        { "syllables": ["배", "빼", "패"] }
+      ],
+      "minimalSets": [
+        { "items": [{ "ko": "불", "sk": "oheň", "char": "ㅂ" }, { "ko": "뿔", "sk": "roh (zvieraťa)", "char": "ㅃ" }, { "ko": "풀", "sk": "tráva; lepidlo", "char": "ㅍ" }] },
+        { "items": [{ "ko": "방", "sk": "izba", "char": "ㅂ" }, { "ko": "빵", "sk": "chlieb", "char": "ㅃ" }] },
+        { "items": [{ "ko": "비", "sk": "dážď", "char": "ㅂ" }, { "ko": "피", "sk": "krv", "char": "ㅍ" }] },
+        { "items": [{ "ko": "발", "sk": "chodidlo, noha", "char": "ㅂ" }, { "ko": "팔", "sk": "ruka (paža)", "char": "ㅍ" }] },
+        { "items": [{ "ko": "비다", "sk": "byť prázdny", "char": "ㅂ" }, { "ko": "피다", "sk": "kvitnúť", "char": "ㅍ" }] }
+      ]
+    },
+    {
+      "id": "c",
+      "title": "ㅈ ㅉ ㅊ",
+      "subtitle": "Tri druhy „č“",
+      "chars": ["ㅈ", "ㅉ", "ㅊ"],
+      "summary": "Jemné č, napäté č a č s výdychom. Pozor – kórejské č je mäkšie ako slovenské.",
+      "theory": [
+        {
+          "heading": "Mäkšie ako slovenské č",
+          "text": "Kórejské ㅈ ㅉ ㅊ sa tvoria špičkou jazyka trochu viac vpredu a mäkšie ako slovenské č. Niekedy znejú skoro ako „ć“ alebo „ť“. Princíp troch verzií je však rovnaký ako pri k, t, p."
+        },
+        {
+          "heading": "ㅈ – jemné č",
+          "text": "Na začiatku slova uvoľnené, mäkké č, hlas NÍZKO. Medzi samohláskami sa zmení na dž: 바지 (nohavice) = „badži“."
+        },
+        {
+          "heading": "ㅉ – napäté č",
+          "text": "Krátke, tvrdé, stiahnuté č bez vzduchu, hlas VYSOKO. Napríklad 짜다 (slaný) – „čča!“."
+        },
+        {
+          "heading": "ㅊ – č s výdychom",
+          "text": "č + silný výdych: „čh“. Hlas VYSOKO. Napríklad 차 (auto, čaj)."
+        },
+        {
+          "heading": "Ako ich rozlíšiť sluchom",
+          "text": "Klasická trojica: 자다 (spať) – 짜다 (slaný) – 차다 (kopnúť; studený). Nízko = ㅈ, vysoko so vzduchom = ㅊ, vysoko a tvrdo = ㅉ."
+        }
+      ],
+      "profiles": [
+        { "char": "ㅈ", "label": "jemné", "slovak": "mäkké č / dž", "pitch": "nízko", "features": [{ "label": "Výdych", "value": 1 }, { "label": "Napätie", "value": 0 }] },
+        { "char": "ㅉ", "label": "napäté", "slovak": "rázne, krátke č", "pitch": "vysoko", "features": [{ "label": "Výdych", "value": 0 }, { "label": "Napätie", "value": 3 }] },
+        { "char": "ㅊ", "label": "s výdychom", "slovak": "č + h", "pitch": "vysoko", "features": [{ "label": "Výdych", "value": 3 }, { "label": "Napätie", "value": 1 }] }
+      ],
+      "tips": [
+        "Ak povieš ㅈ ako ostré slovenské č, Kórejec počuje ㅉ.",
+        "진짜 (naozaj) je skvelé cvičenie: prvé ㅈ jemné, druhé ㅉ napäté.",
+        "Pri ㅊ nepreháňaj sykot – dôležitý je výdych, nie syčanie."
+      ],
+      "comparison": [
+        { "syllables": ["자", "짜", "차"] },
+        { "syllables": ["조", "쪼", "초"] },
+        { "syllables": ["지", "찌", "치"] },
+        { "syllables": ["주", "쭈", "추"] },
+        { "syllables": ["저", "쩌", "처"] },
+        { "syllables": ["재", "째", "채"] }
+      ],
+      "minimalSets": [
+        { "items": [{ "ko": "자다", "sk": "spať", "char": "ㅈ" }, { "ko": "짜다", "sk": "slaný", "char": "ㅉ" }, { "ko": "차다", "sk": "kopnúť; studený", "char": "ㅊ" }] },
+        { "items": [{ "ko": "지다", "sk": "prehrať", "char": "ㅈ" }, { "ko": "찌다", "sk": "pariť; pribrať", "char": "ㅉ" }, { "ko": "치다", "sk": "udrieť; hrať (na nástroji)", "char": "ㅊ" }] },
+        { "items": [{ "ko": "죽", "sk": "ryžová kaša", "char": "ㅈ" }, { "ko": "쭉", "sk": "stále rovno", "char": "ㅉ" }, { "ko": "축", "sk": "os; oslava", "char": "ㅊ" }] },
+        { "items": [{ "ko": "잠", "sk": "spánok", "char": "ㅈ" }, { "ko": "참", "sk": "naozaj, skutočne", "char": "ㅊ" }] }
+      ]
+    },
+    {
+      "id": "s",
+      "title": "ㅅ ㅆ",
+      "subtitle": "Dva druhy „s“",
+      "chars": ["ㅅ", "ㅆ"],
+      "summary": "Mäkké, vzdušné s a ostré, napäté s. Tu nepomôže výška hlasu – počúvaj šum.",
+      "theory": [
+        {
+          "heading": "Len dve verzie",
+          "text": "Pri s má kórejčina iba dve verzie: jemné ㅅ a napäté ㅆ. Verzia s výdychom neexistuje."
+        },
+        {
+          "heading": "ㅅ – mäkké s",
+          "text": "Jemné, trochu „vzdušné“ s, akoby s malým vydýchnutím na konci: „sh-a“ (nie anglické sh, ale s, za ktorým unikne kúsok vzduchu)."
+        },
+        {
+          "heading": "ㅆ – ostré s",
+          "text": "Ostré, napäté, čisté s – ako keď niekoho rázne umlčíš: „Ssst!“. Bez vzdušného dovetku."
+        },
+        {
+          "heading": "Pred i znejú ako š",
+          "text": "Pred ㅣ (a pred ㅑ, ㅕ, ㅛ, ㅠ) sa obe zmäkčia na mäkké š: 시 ≈ „ši“, 씨 ≈ ostré „šši“. Je to mäkšie ako slovenské š – niečo ako poľské ś."
+        },
+        {
+          "heading": "Ako ich rozlíšiť sluchom",
+          "text": "Výška hlasu tu pomáha málo – obe znejú dosť vysoko. Počúvaj kvalitu šumu: ㅅ je mäkké a vzdušné, ㅆ ostré, dlhšie a „kovové“. Klasika: 사다 (kúpiť) – 싸다 (lacný)."
+        }
+      ],
+      "profiles": [
+        { "char": "ㅅ", "label": "mäkké", "slovak": "jemné s s výdychom", "pitch": "vysoko", "features": [{ "label": "Výdych", "value": 2 }, { "label": "Napätie", "value": 0 }] },
+        { "char": "ㅆ", "label": "napäté", "slovak": "ostré „ssst“", "pitch": "vysoko", "features": [{ "label": "Výdych", "value": 0 }, { "label": "Napätie", "value": 3 }] }
+      ],
+      "tips": [
+        "Slovenské s je bližšie k ㅆ než k ㅅ. Pri ㅅ ho zjemni a pridaj kúsok vzduchu.",
+        "사요 (kupujem) vs. 싸요 (je to lacné) – v obchode sa tento rozdiel zíde!",
+        "Pozor na 씨 (pán / pani pri mene): je ostré, nie mäkké."
+      ],
+      "comparison": [
+        { "syllables": ["사", "싸"] },
+        { "syllables": ["소", "쏘"] },
+        { "syllables": ["시", "씨"] },
+        { "syllables": ["수", "쑤"] },
+        { "syllables": ["서", "써"] },
+        { "syllables": ["새", "쌔"] }
+      ],
+      "minimalSets": [
+        { "items": [{ "ko": "사다", "sk": "kúpiť", "char": "ㅅ" }, { "ko": "싸다", "sk": "lacný; zabaliť", "char": "ㅆ" }] },
+        { "items": [{ "ko": "살", "sk": "mäso (na tele); vek", "char": "ㅅ" }, { "ko": "쌀", "sk": "ryža (nevarená)", "char": "ㅆ" }] },
+        { "items": [{ "ko": "시", "sk": "báseň; hodina", "char": "ㅅ" }, { "ko": "씨", "sk": "semienko; pán/pani", "char": "ㅆ" }] },
+        { "items": [{ "ko": "사요", "sk": "kupujem", "char": "ㅅ" }, { "ko": "싸요", "sk": "je to lacné", "char": "ㅆ" }] },
+        { "items": [{ "ko": "서요", "sk": "stojí", "char": "ㅅ" }, { "ko": "써요", "sk": "píše; je horké", "char": "ㅆ" }] }
+      ]
+    },
+    {
+      "id": "vowels-o",
+      "title": "ㅓ ㅗ ㅜ ㅡ",
+      "subtitle": "Bonus: zradné samohlásky",
+      "chars": ["ㅓ", "ㅗ", "ㅜ", "ㅡ"],
+      "summary": "Dve „o“ a dve „u“, ktoré slovenčina nerozlišuje. Bez nich si zamieňaš 거기 (tam) a 고기 (mäso).",
+      "theory": [
+        {
+          "heading": "Dve o, dve u",
+          "text": "Slovenčina má jedno o a jedno u. Kórejčina má pre každé dve verzie – s našpúlenými perami (ㅗ, ㅜ) a s uvoľnenými, roztiahnutými perami (ㅓ, ㅡ)."
+        },
+        {
+          "heading": "ㅓ – otvorené o",
+          "text": "Ústa otvorené skoro ako pri a, pery uvoľnené, nie zaokrúhlené. Znie to ako niečo medzi o a a."
+        },
+        {
+          "heading": "ㅗ – zaokrúhlené o",
+          "text": "Pery našpúlené do malého krúžku, ústa menej otvorené ako pri slovenskom o."
+        },
+        {
+          "heading": "ㅜ a ㅡ",
+          "text": "ㅜ je slovenské u s našpúlenými perami. ㅡ má jazyk na rovnakom mieste, ale pery roztiahnuté ako pri úsmeve – ruské ы je dobrá pomôcka."
+        },
+        {
+          "heading": "Pozri sa do zrkadla",
+          "text": "Rozdiel je hlavne v perách. Pri ㅗ a ㅜ sú pery okrúhle, pri ㅓ a ㅡ nie. Keď to správne vyslovíš, začneš to aj lepšie počuť."
+        }
+      ],
+      "profiles": [
+        { "char": "ㅓ", "label": "otvorené o", "slovak": "o smerom k a", "features": [{ "label": "Zaokrúhlenie pier", "value": 0 }, { "label": "Otvorenie úst", "value": 3 }] },
+        { "char": "ㅗ", "label": "okrúhle o", "slovak": "našpúlené o", "features": [{ "label": "Zaokrúhlenie pier", "value": 3 }, { "label": "Otvorenie úst", "value": 1 }] },
+        { "char": "ㅜ", "label": "okrúhle u", "slovak": "slovenské u", "features": [{ "label": "Zaokrúhlenie pier", "value": 3 }, { "label": "Otvorenie úst", "value": 0 }] },
+        { "char": "ㅡ", "label": "rovné u", "slovak": "ы / u s úsmevom", "features": [{ "label": "Zaokrúhlenie pier", "value": 0 }, { "label": "Otvorenie úst", "value": 0 }] }
+      ],
+      "tips": [
+        "거기 (tam) vs. 고기 (mäso) – keď si v reštaurácii, je dobré to rozlišovať.",
+        "Ak si nevieš rady s ㅡ, povedz ㅜ a potom pery roztiahni do úsmevu bez pohnutia jazykom.",
+        "ㅓ často znie Slovákom ako krátke a. To je v poriadku – je to bližšie, ako keby si povedal o."
+      ],
+      "comparison": [
+        { "syllables": ["어", "오", "우", "으"] },
+        { "syllables": ["거", "고", "구", "그"] },
+        { "syllables": ["머", "모", "무", "므"] },
+        { "syllables": ["서", "소", "수", "스"] },
+        { "syllables": ["너", "노", "누", "느"] }
+      ],
+      "minimalSets": [
+        { "items": [{ "ko": "거기", "sk": "tam", "char": "ㅓ" }, { "ko": "고기", "sk": "mäso", "char": "ㅗ" }] },
+        { "items": [{ "ko": "검", "sk": "meč", "char": "ㅓ" }, { "ko": "곰", "sk": "medveď", "char": "ㅗ" }, { "ko": "금", "sk": "zlato", "char": "ㅡ" }] },
+        { "items": [{ "ko": "섬", "sk": "ostrov", "char": "ㅓ" }, { "ko": "솜", "sk": "vata", "char": "ㅗ" }] },
+        { "items": [{ "ko": "들", "sk": "pole, lúka", "char": "ㅡ" }, { "ko": "둘", "sk": "dva", "char": "ㅜ" }] },
+        { "items": [{ "ko": "너", "sk": "ty", "char": "ㅓ" }, { "ko": "노", "sk": "veslo", "char": "ㅗ" }] }
+      ]
+    }
+  ]
+}

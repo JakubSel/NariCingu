@@ -1,0 +1,378 @@
+{
+  "groups": [
+    {
+      "id": "consonants",
+      "title": "Spoluhlásky",
+      "description": "Kórejské spoluhlásky sa delia na jemné, napäté (zdvojené) a s výdychom. Práve tento rozdiel je pre Slovákov najťažší.",
+      "items": [
+        {
+          "char": "ㄱ", "name": "기역", "nameRom": "giyeok", "rom": "g / k", "sound": "가",
+          "explanation": "Na začiatku slova znie ako slabé, neznelé k – takmer bez výdychu a s nízkym hlasom po ňom. Medzi samohláskami sa zmení na g. Na konci slabiky je to krátke, nedopovedané k.",
+          "slovak": "medzi k a g; medzi samohláskami ako g",
+          "tip": "Nevyslovuj ho ako tvrdé slovenské k – Kórejec by to počul ako ㄲ.",
+          "examples": [
+            { "ko": "고기", "rom": "gogi", "sk": "mäso" },
+            { "ko": "가방", "rom": "gabang", "sk": "taška" }
+          ]
+        },
+        {
+          "char": "ㄴ", "name": "니은", "nameRom": "nieun", "rom": "n", "sound": "나",
+          "explanation": "Rovnaké ako slovenské n.",
+          "slovak": "n",
+          "examples": [
+            { "ko": "나무", "rom": "namu", "sk": "strom" },
+            { "ko": "눈", "rom": "nun", "sk": "oko / sneh" }
+          ]
+        },
+        {
+          "char": "ㄷ", "name": "디귿", "nameRom": "digeut", "rom": "d / t", "sound": "다",
+          "explanation": "Na začiatku slova slabé t bez výdychu, medzi samohláskami d. Na konci slabiky nedopovedané t – jazyk sa prilepí za zuby a vzduch neunikne.",
+          "slovak": "medzi t a d; medzi samohláskami ako d",
+          "examples": [
+            { "ko": "다리", "rom": "dari", "sk": "noha / most" },
+            { "ko": "바다", "rom": "bada", "sk": "more" }
+          ]
+        },
+        {
+          "char": "ㄹ", "name": "리을", "nameRom": "rieul", "rom": "r / l", "sound": "라",
+          "explanation": "Medzi samohláskami jeden rýchly ťuk jazykom – veľmi krátke r, nikdy nie vrčané. Na konci slabiky znie ako l. Dve ㄹ za sebou (ㄹㄹ) znejú ako dlhé ll.",
+          "slovak": "krátke r (jeden úder) alebo l",
+          "tip": "Slovenské r často „vrčí“ – kórejské ㄹ je len jeden dotyk jazyka.",
+          "examples": [
+            { "ko": "라면", "rom": "ramyeon", "sk": "instantné rezance" },
+            { "ko": "물", "rom": "mul", "sk": "voda" },
+            { "ko": "빨리", "rom": "ppalli", "sk": "rýchlo" }
+          ]
+        },
+        {
+          "char": "ㅁ", "name": "미음", "nameRom": "mieum", "rom": "m", "sound": "마",
+          "explanation": "Rovnaké ako slovenské m.",
+          "slovak": "m",
+          "examples": [
+            { "ko": "엄마", "rom": "eomma", "sk": "mama" },
+            { "ko": "몸", "rom": "mom", "sk": "telo" }
+          ]
+        },
+        {
+          "char": "ㅂ", "name": "비읍", "nameRom": "bieup", "rom": "b / p", "sound": "바",
+          "explanation": "Na začiatku slova slabé p bez výdychu, medzi samohláskami b. Na konci slabiky sa pery zatvoria a ostanú zatvorené – nedopovedané p.",
+          "slovak": "medzi p a b; medzi samohláskami ako b",
+          "examples": [
+            { "ko": "바다", "rom": "bada", "sk": "more" },
+            { "ko": "밥", "rom": "bap", "sk": "varená ryža / jedlo" }
+          ]
+        },
+        {
+          "char": "ㅅ", "name": "시옷", "nameRom": "siot", "rom": "s", "sound": "사",
+          "explanation": "Mäkké, trochu „vzdušné“ s – akoby s malým vydýchnutím. Pred ㅣ a pred samohláskami s j (ㅑ, ㅕ, ㅛ, ㅠ) znie ako mäkké š (시 ≈ ši). Na konci slabiky sa vyslovuje ako nedopovedané t.",
+          "slovak": "jemné s; pred i ako mäkké š",
+          "examples": [
+            { "ko": "사람", "rom": "saram", "sk": "človek" },
+            { "ko": "시간", "rom": "sigan", "sk": "čas" }
+          ]
+        },
+        {
+          "char": "ㅇ", "name": "이응", "nameRom": "ieung", "rom": "– / ng", "sound": "아",
+          "explanation": "Na začiatku slabiky je nemé – len drží miesto pred samohláskou. Na konci slabiky znie ako ng, presne ako n v slovenských slovách banka alebo Anka.",
+          "slovak": "nemé; na konci ako n v slove „banka“",
+          "examples": [
+            { "ko": "아이", "rom": "ai", "sk": "dieťa" },
+            { "ko": "강", "rom": "gang", "sk": "rieka" }
+          ]
+        },
+        {
+          "char": "ㅈ", "name": "지읒", "nameRom": "jieut", "rom": "j / č", "sound": "자",
+          "explanation": "Na začiatku slova jemné č bez výdychu, medzi samohláskami dž. Jazyk je mäkší a viac vpredu ako pri slovenskom č.",
+          "slovak": "medzi č a dž",
+          "examples": [
+            { "ko": "자다", "rom": "jada", "sk": "spať" },
+            { "ko": "바지", "rom": "baji", "sk": "nohavice" }
+          ]
+        },
+        {
+          "char": "ㅊ", "name": "치읓", "nameRom": "chieut", "rom": "ch (čh)", "sound": "차",
+          "explanation": "Č so silným výdychom – „čh“. Pri vyslovení cítiš prúd vzduchu na dlani.",
+          "slovak": "č + výdych",
+          "examples": [
+            { "ko": "차", "rom": "cha", "sk": "auto / čaj" },
+            { "ko": "친구", "rom": "chingu", "sk": "kamarát" }
+          ]
+        },
+        {
+          "char": "ㅋ", "name": "키읔", "nameRom": "kieuk", "rom": "k (kh)", "sound": "카",
+          "explanation": "K so silným výdychom – „kh“. Ako keď sfúkneš sviečku hneď po k.",
+          "slovak": "k + výdych",
+          "examples": [
+            { "ko": "코", "rom": "ko", "sk": "nos" },
+            { "ko": "카드", "rom": "kadeu", "sk": "karta" }
+          ]
+        },
+        {
+          "char": "ㅌ", "name": "티읕", "nameRom": "tieut", "rom": "t (th)", "sound": "타",
+          "explanation": "T so silným výdychom – „th“ (nie anglické th, ale t + vzduch).",
+          "slovak": "t + výdych",
+          "examples": [
+            { "ko": "토끼", "rom": "tokki", "sk": "zajac" },
+            { "ko": "타다", "rom": "tada", "sk": "nastúpiť, jazdiť" }
+          ]
+        },
+        {
+          "char": "ㅍ", "name": "피읖", "nameRom": "pieup", "rom": "p (ph)", "sound": "파",
+          "explanation": "P so silným výdychom – „ph“. Papierik pred ústami sa pohne.",
+          "slovak": "p + výdych",
+          "examples": [
+            { "ko": "포도", "rom": "podo", "sk": "hrozno" },
+            { "ko": "파", "rom": "pa", "sk": "jarná cibuľka" }
+          ]
+        },
+        {
+          "char": "ㅎ", "name": "히읗", "nameRom": "hieut", "rom": "h", "sound": "하",
+          "explanation": "Neznelé, ľahké h – len tichý výdych. Je slabšie ako slovenské h a jemnejšie ako ch. Medzi samohláskami často takmer zmizne.",
+          "slovak": "ľahké h (výdych), nie drsné ch",
+          "examples": [
+            { "ko": "하나", "rom": "hana", "sk": "jeden" },
+            { "ko": "학교", "rom": "hakgyo", "sk": "škola" }
+          ]
+        },
+        {
+          "char": "ㄲ", "name": "쌍기역", "nameRom": "ssanggiyeok", "rom": "kk", "sound": "까",
+          "explanation": "Napäté k – bez výdychu, so stiahnutým hrdlom a vyšším hlasom. Slovenské k vyslovené rázne a dôrazne je veľmi blízko.",
+          "slovak": "rázne slovenské k",
+          "tip": "Dobrá správa: slovenské k nemá výdych, takže ㄲ ti pôjde prirodzene.",
+          "examples": [
+            { "ko": "까치", "rom": "kkachi", "sk": "straka" },
+            { "ko": "꼬리", "rom": "kkori", "sk": "chvost" }
+          ]
+        },
+        {
+          "char": "ㄸ", "name": "쌍디귿", "nameRom": "ssangdigeut", "rom": "tt", "sound": "따",
+          "explanation": "Napäté t – bez výdychu, tvrdé a krátke, hlas po ňom začína vysoko.",
+          "slovak": "rázne slovenské t",
+          "examples": [
+            { "ko": "딸", "rom": "ttal", "sk": "dcéra" },
+            { "ko": "땅", "rom": "ttang", "sk": "zem, pôda" }
+          ]
+        },
+        {
+          "char": "ㅃ", "name": "쌍비읍", "nameRom": "ssangbieup", "rom": "pp", "sound": "빠",
+          "explanation": "Napäté p – pery stlačené pevnejšie, bez výdychu, hlas začína vysoko.",
+          "slovak": "rázne slovenské p",
+          "examples": [
+            { "ko": "빵", "rom": "ppang", "sk": "chlieb" },
+            { "ko": "아빠", "rom": "appa", "sk": "ocko" }
+          ]
+        },
+        {
+          "char": "ㅆ", "name": "쌍시옷", "nameRom": "ssangsiot", "rom": "ss", "sound": "싸",
+          "explanation": "Ostré, napäté s bez vzdušného šumu – ako slovenské s vyslovené dôrazne. Pred ㅣ znie ako ostré š.",
+          "slovak": "ostré, dôrazné s",
+          "examples": [
+            { "ko": "쌀", "rom": "ssal", "sk": "ryža (nevarená)" },
+            { "ko": "비싸다", "rom": "bissada", "sk": "drahý" }
+          ]
+        },
+        {
+          "char": "ㅉ", "name": "쌍지읒", "nameRom": "ssangjieut", "rom": "jj (čč)", "sound": "짜",
+          "explanation": "Napäté č – bez výdychu, tvrdé, s vyšším hlasom.",
+          "slovak": "rázne, krátke č",
+          "examples": [
+            { "ko": "짜다", "rom": "jjada", "sk": "slaný" },
+            { "ko": "찌개", "rom": "jjigae", "sk": "hustá polievka (čige)" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vowels",
+      "title": "Samohlásky",
+      "description": "Základné samohlásky. Pozor najmä na ㅓ a ㅡ – v slovenčine ich nemáme.",
+      "items": [
+        {
+          "char": "ㅏ", "name": "아", "rom": "a", "sound": "아",
+          "explanation": "Ako slovenské a.",
+          "slovak": "a",
+          "examples": [
+            { "ko": "아이", "rom": "ai", "sk": "dieťa" },
+            { "ko": "나라", "rom": "nara", "sk": "krajina" }
+          ]
+        },
+        {
+          "char": "ㅓ", "name": "어", "rom": "eo", "sound": "어",
+          "explanation": "Otvorené o bez zaokrúhlenia pier – niečo medzi o a a. Ústa otvor ako pri a, ale jazyk stiahni dozadu ako pri o.",
+          "slovak": "o bez našpúlenia pier, smerom k a",
+          "tip": "Najčastejšia chyba: vyslovovať ㅓ ako slovenské o. Potom 거기 (tam) znie ako 고기 (mäso).",
+          "examples": [
+            { "ko": "어머니", "rom": "eomeoni", "sk": "matka" },
+            { "ko": "거기", "rom": "geogi", "sk": "tam" }
+          ]
+        },
+        {
+          "char": "ㅗ", "name": "오", "rom": "o", "sound": "오",
+          "explanation": "Zaokrúhlené, uzavreté o – pery viac našpúlené ako pri slovenskom o.",
+          "slovak": "o s našpúlenými perami",
+          "examples": [
+            { "ko": "오이", "rom": "oi", "sk": "uhorka" },
+            { "ko": "소", "rom": "so", "sk": "krava" }
+          ]
+        },
+        {
+          "char": "ㅜ", "name": "우", "rom": "u", "sound": "우",
+          "explanation": "Ako slovenské u, pery našpúlené.",
+          "slovak": "u",
+          "examples": [
+            { "ko": "우유", "rom": "uyu", "sk": "mlieko" },
+            { "ko": "구두", "rom": "gudu", "sk": "topánky" }
+          ]
+        },
+        {
+          "char": "ㅡ", "name": "으", "rom": "eu", "sound": "으",
+          "explanation": "Pery roztiahnuté ako pri úsmeve, jazyk stiahnutý dozadu ako pri u. Slovenčina ho nemá – podobá sa ruskému ы.",
+          "slovak": "„u“ s roztiahnutými perami",
+          "examples": [
+            { "ko": "크다", "rom": "keuda", "sk": "veľký" },
+            { "ko": "그림", "rom": "geurim", "sk": "obrázok" }
+          ]
+        },
+        {
+          "char": "ㅣ", "name": "이", "rom": "i", "sound": "이",
+          "explanation": "Ako slovenské i.",
+          "slovak": "i",
+          "examples": [
+            { "ko": "이름", "rom": "ireum", "sk": "meno" },
+            { "ko": "기차", "rom": "gicha", "sk": "vlak" }
+          ]
+        },
+        {
+          "char": "ㅐ", "name": "애", "rom": "ae", "sound": "애", "quizExclude": ["ㅔ"],
+          "explanation": "V dnešnej kórejčine znie takmer rovnako ako ㅔ – ako slovenské e, nanajvýš o trochu otvorenejšie. Rozdiel medzi ㅐ a ㅔ sa učíš hlavne pre pravopis.",
+          "slovak": "e (pôvodne ako ä)",
+          "examples": [
+            { "ko": "개", "rom": "gae", "sk": "pes" },
+            { "ko": "새", "rom": "sae", "sk": "vták" }
+          ]
+        },
+        {
+          "char": "ㅔ", "name": "에", "rom": "e", "sound": "에", "quizExclude": ["ㅐ"],
+          "explanation": "Ako slovenské e.",
+          "slovak": "e",
+          "examples": [
+            { "ko": "게", "rom": "ge", "sk": "krab" },
+            { "ko": "세계", "rom": "segye", "sk": "svet" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diphthongs",
+      "title": "Dvojhlásky",
+      "description": "Samohlásky s j (ㅑ, ㅕ…) a s w (ㅘ, ㅝ…). Vyslovujú sa ako jedna rýchla slabika.",
+      "items": [
+        {
+          "char": "ㅑ", "name": "야", "rom": "ya", "sound": "야",
+          "explanation": "j + a, ako slovenské ja.",
+          "slovak": "ja",
+          "examples": [{ "ko": "야구", "rom": "yagu", "sk": "bejzbal" }]
+        },
+        {
+          "char": "ㅕ", "name": "여", "rom": "yeo", "sound": "여",
+          "explanation": "j + ㅓ – teda j a otvorené o bez zaokrúhlenia pier.",
+          "slovak": "jo (s otvoreným o)",
+          "examples": [
+            { "ko": "여자", "rom": "yeoja", "sk": "žena" },
+            { "ko": "여름", "rom": "yeoreum", "sk": "leto" }
+          ]
+        },
+        {
+          "char": "ㅛ", "name": "요", "rom": "yo", "sound": "요",
+          "explanation": "j + ㅗ – jo so zaokrúhlenými perami.",
+          "slovak": "jo",
+          "examples": [{ "ko": "요리", "rom": "yori", "sk": "varenie" }]
+        },
+        {
+          "char": "ㅠ", "name": "유", "rom": "yu", "sound": "유",
+          "explanation": "j + u, ako slovenské ju.",
+          "slovak": "ju",
+          "examples": [
+            { "ko": "우유", "rom": "uyu", "sk": "mlieko" },
+            { "ko": "유리", "rom": "yuri", "sk": "sklo" }
+          ]
+        },
+        {
+          "char": "ㅒ", "name": "얘", "rom": "yae", "sound": "얘", "quizExclude": ["ㅖ"],
+          "explanation": "j + ㅐ. Dnes znie prakticky rovnako ako ㅖ – ako slovenské je.",
+          "slovak": "je",
+          "examples": [{ "ko": "얘기", "rom": "yaegi", "sk": "rozhovor, príbeh" }]
+        },
+        {
+          "char": "ㅖ", "name": "예", "rom": "ye", "sound": "예", "quizExclude": ["ㅒ"],
+          "explanation": "j + e. Po spoluhláske (okrem ㅇ a ㄹ) sa často vyslovuje len ako e: 시계 → [시게].",
+          "slovak": "je",
+          "examples": [
+            { "ko": "예", "rom": "ye", "sk": "áno" },
+            { "ko": "시계", "rom": "sigye", "sk": "hodinky" }
+          ]
+        },
+        {
+          "char": "ㅘ", "name": "와", "rom": "wa", "sound": "와",
+          "explanation": "u + a rýchlo spojené do jednej slabiky – ua.",
+          "slovak": "ua (ako v „guáno“)",
+          "examples": [
+            { "ko": "사과", "rom": "sagwa", "sk": "jablko" },
+            { "ko": "과자", "rom": "gwaja", "sk": "sušienky" }
+          ]
+        },
+        {
+          "char": "ㅙ", "name": "왜", "rom": "wae", "sound": "왜", "quizExclude": ["ㅚ", "ㅞ"],
+          "explanation": "u + ㅐ – ue. Dnes znie takmer rovnako ako ㅚ a ㅞ.",
+          "slovak": "ue",
+          "examples": [
+            { "ko": "왜", "rom": "wae", "sk": "prečo" },
+            { "ko": "돼지", "rom": "dwaeji", "sk": "prasa" }
+          ]
+        },
+        {
+          "char": "ㅚ", "name": "외", "rom": "oe", "sound": "외", "quizExclude": ["ㅙ", "ㅞ"],
+          "explanation": "Píše sa ako o + i, ale dnes sa vyslovuje ako ue.",
+          "slovak": "ue",
+          "examples": [
+            { "ko": "회사", "rom": "hoesa", "sk": "firma" },
+            { "ko": "외국", "rom": "oeguk", "sk": "cudzina" }
+          ]
+        },
+        {
+          "char": "ㅝ", "name": "워", "rom": "wo", "sound": "워",
+          "explanation": "u + ㅓ – uo s otvoreným, nezaokrúhleným o.",
+          "slovak": "uo",
+          "examples": [
+            { "ko": "뭐", "rom": "mwo", "sk": "čo" },
+            { "ko": "원", "rom": "won", "sk": "won (mena)" }
+          ]
+        },
+        {
+          "char": "ㅞ", "name": "웨", "rom": "we", "sound": "웨", "quizExclude": ["ㅙ", "ㅚ"],
+          "explanation": "u + e – ue. Používa sa zriedka, často v prevzatých slovách.",
+          "slovak": "ue",
+          "examples": [{ "ko": "웨이터", "rom": "weiteo", "sk": "čašník" }]
+        },
+        {
+          "char": "ㅟ", "name": "위", "rom": "wi", "sound": "위",
+          "explanation": "u + i rýchlo spojené – ui.",
+          "slovak": "ui",
+          "examples": [
+            { "ko": "귀", "rom": "gwi", "sk": "ucho" },
+            { "ko": "위", "rom": "wi", "sk": "hore, vrch" }
+          ]
+        },
+        {
+          "char": "ㅢ", "name": "의", "rom": "ui", "sound": "의",
+          "explanation": "ㅡ + i rýchlo za sebou. Na začiatku slova sa vyslovuje celé (의사 → ŭisa). Po spoluhláske len ako i (희망 → [히망]). Ako privlastňovacia častica „-ov“ často znie ako e.",
+          "slovak": "ŭi, i alebo e – podľa pozície",
+          "examples": [
+            { "ko": "의사", "rom": "uisa", "sk": "lekár" },
+            { "ko": "의자", "rom": "uija", "sk": "stolička" }
+          ]
+        }
+      ]
+    }
+  ]
+}

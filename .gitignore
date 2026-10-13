@@ -1,0 +1,55 @@
+# Závislosti
+node_modules/
+.pnpm-store/
+
+# Build výstupy (dist sa generuje v GitHub Actions)
+dist/
+dist-ssr/
+build/
+*.tsbuildinfo
+
+# Cache nástrojov
+.vite/
+.cache/
+.eslintcache
+.stylelintcache
+coverage/
+
+# Lokálne premenné prostredia a nastavenia
+.env
+.env.*
+!.env.example
+*.local
+
+# Logy
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editory a IDE (zdieľané nastavenia VS Code ostávajú povolené)
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Operačný systém
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Lokálne nastavenia Claude Code
+.claude/settings.local.json
+
+# Dočasné súbory
+*.tmp
+*.bak
+tmp/
+temp/

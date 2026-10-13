@@ -1,0 +1,112 @@
+{
+  "categories": [
+    {
+      "id": "food",
+      "title": "Jedlo",
+      "icon": "🍚",
+      "description": "Slová z reštaurácie a kuchyne – plné napätých spoluhlások a nazalizácie.",
+      "words": [
+        { "ko": "밥", "sk": "varená ryža; jedlo", "pron": "밥", "rom": "bap", "example": { "ko": "밥 먹었어요?", "sk": "Už si jedol?" }, "note": "Bežný pozdrav – doslova „Jedol si ryžu?“" },
+        { "ko": "김치", "sk": "kimči", "pron": "김치", "rom": "gimchi", "example": { "ko": "김치가 매워요.", "sk": "Kimči je pálivé." } },
+        { "ko": "물", "sk": "voda", "pron": "물", "rom": "mul", "example": { "ko": "물 좀 주세요.", "sk": "Dajte mi, prosím, trochu vody." } },
+        { "ko": "고기", "sk": "mäso", "pron": "고기", "rom": "gogi", "example": { "ko": "고기를 좋아해요.", "sk": "Mám rád mäso." }, "note": "Prvé ㄱ je jemné k, druhé znie ako g." },
+        { "ko": "사과", "sk": "jablko", "pron": "사과", "rom": "sagwa", "example": { "ko": "사과 두 개 주세요.", "sk": "Dajte mi dve jablká, prosím." } },
+        { "ko": "빵", "sk": "chlieb", "pron": "빵", "rom": "ppang", "example": { "ko": "아침에 빵을 먹어요.", "sk": "Ráno jem chlieb." } },
+        { "ko": "떡볶이", "sk": "pikantné ryžové koláčiky", "pron": "떡뽀끼", "rom": "tteokbokki", "example": { "ko": "떡볶이가 맛있어요.", "sk": "Tteokbokki je chutné." }, "note": "Po ㄱ sa ㅂ sprísni na ㅃ." },
+        { "ko": "국물", "sk": "vývar", "pron": "궁물", "rom": "gungmul", "example": { "ko": "국물이 뜨거워요.", "sk": "Vývar je horúci." }, "note": "Nazalizácia: ㄱ pred ㅁ → ㅇ." },
+        { "ko": "닭고기", "sk": "kuracie mäso", "pron": "닥꼬기", "rom": "dakgogi", "example": { "ko": "닭고기를 샀어요.", "sk": "Kúpil som kuracie mäso." } },
+        { "ko": "커피", "sk": "káva", "pron": "커피", "rom": "keopi", "example": { "ko": "커피 한 잔 주세요.", "sk": "Jednu kávu, prosím." } }
+      ]
+    },
+    {
+      "id": "family",
+      "title": "Rodina",
+      "icon": "👨‍👩‍👧",
+      "description": "Kórejčina rozlišuje súrodencov podľa veku aj podľa toho, kto hovorí.",
+      "words": [
+        { "ko": "가족", "sk": "rodina", "pron": "가족", "rom": "gajok", "example": { "ko": "우리 가족은 네 명이에요.", "sk": "Naša rodina má štyroch členov." } },
+        { "ko": "엄마", "sk": "mama", "pron": "엄마", "rom": "eomma", "example": { "ko": "엄마, 배고파요.", "sk": "Mami, som hladný." } },
+        { "ko": "아빠", "sk": "ocko", "pron": "아빠", "rom": "appa", "example": { "ko": "아빠는 회사에 가요.", "sk": "Ocko ide do práce." } },
+        { "ko": "형", "sk": "starší brat (hovorí muž)", "pron": "형", "rom": "hyeong", "example": { "ko": "형, 같이 가요.", "sk": "Brácho, poďme spolu." } },
+        { "ko": "오빠", "sk": "starší brat (hovorí žena)", "pron": "오빠", "rom": "oppa", "example": { "ko": "오빠가 키가 커요.", "sk": "Môj starší brat je vysoký." } },
+        { "ko": "누나", "sk": "staršia sestra (hovorí muž)", "pron": "누나", "rom": "nuna", "example": { "ko": "누나는 대학생이에요.", "sk": "Moja staršia sestra je vysokoškoláčka." } },
+        { "ko": "언니", "sk": "staršia sestra (hovorí žena)", "pron": "언니", "rom": "eonni", "example": { "ko": "언니랑 쇼핑했어요.", "sk": "Nakupovala som so sestrou." } },
+        { "ko": "동생", "sk": "mladší súrodenec", "pron": "동생", "rom": "dongsaeng", "example": { "ko": "동생이 한 명 있어요.", "sk": "Mám jedného mladšieho súrodenca." } },
+        { "ko": "할머니", "sk": "stará mama", "pron": "할머니", "rom": "halmeoni", "example": { "ko": "할머니 댁에 가요.", "sk": "Idem k starej mame." } },
+        { "ko": "할아버지", "sk": "starý otec", "pron": "하라버지", "rom": "harabeoji", "example": { "ko": "할아버지가 웃으세요.", "sk": "Starý otec sa usmieva." }, "note": "Spojenie: ㄹ preskočí do slabiky 아 → [하라버지]." }
+      ]
+    },
+    {
+      "id": "animals",
+      "title": "Zvieratá",
+      "icon": "🐯",
+      "description": "Krátke slová, ideálne na tréning jemných a napätých spoluhlások.",
+      "words": [
+        { "ko": "개", "sk": "pes", "pron": "개", "rom": "gae", "example": { "ko": "개가 짖어요.", "sk": "Pes šteká." } },
+        { "ko": "고양이", "sk": "mačka", "pron": "고양이", "rom": "goyangi", "example": { "ko": "고양이가 귀여워요.", "sk": "Mačka je zlatá." } },
+        { "ko": "새", "sk": "vták", "pron": "새", "rom": "sae", "example": { "ko": "새가 노래해요.", "sk": "Vták spieva." } },
+        { "ko": "소", "sk": "krava", "pron": "소", "rom": "so", "example": { "ko": "소가 풀을 먹어요.", "sk": "Krava žerie trávu." } },
+        { "ko": "닭", "sk": "kura, sliepka", "pron": "닥", "rom": "dak", "example": { "ko": "닭이 울어요.", "sk": "Kohút kikiríka." }, "note": "Z ㄺ sa na konci vysloví len ㄱ. Ale 닭이 → [달기]." },
+        { "ko": "토끼", "sk": "zajac", "pron": "토끼", "rom": "tokki", "example": { "ko": "토끼가 빨라요.", "sk": "Zajac je rýchly." } },
+        { "ko": "곰", "sk": "medveď", "pron": "곰", "rom": "gom", "example": { "ko": "곰이 커요.", "sk": "Medveď je veľký." } },
+        { "ko": "말", "sk": "kôň", "pron": "말", "rom": "mal", "example": { "ko": "말을 타요.", "sk": "Jazdím na koni." }, "note": "말 znamená aj „reč, slovo“." },
+        { "ko": "물고기", "sk": "ryba (živá)", "pron": "물꼬기", "rom": "mulgogi", "example": { "ko": "물고기가 헤엄쳐요.", "sk": "Ryba pláva." }, "note": "Zložené slovo – ㄱ sa sprísni na ㄲ." },
+        { "ko": "돼지", "sk": "prasa", "pron": "돼지", "rom": "dwaeji", "example": { "ko": "돼지가 자요.", "sk": "Prasa spí." } }
+      ]
+    },
+    {
+      "id": "school",
+      "title": "Škola",
+      "icon": "🏫",
+      "description": "Školské slová – veľa tenzifikácie (학교 → 학꾜).",
+      "words": [
+        { "ko": "학교", "sk": "škola", "pron": "학꾜", "rom": "hakgyo", "example": { "ko": "학교에 가요.", "sk": "Idem do školy." }, "note": "Tenzifikácia: po ㄱ → ㄲ." },
+        { "ko": "학생", "sk": "študent, žiak", "pron": "학쌩", "rom": "haksaeng", "example": { "ko": "저는 학생이에요.", "sk": "Som študent." } },
+        { "ko": "선생님", "sk": "učiteľ", "pron": "선생님", "rom": "seonsaengnim", "example": { "ko": "선생님, 질문 있어요.", "sk": "Pán učiteľ, mám otázku." } },
+        { "ko": "책", "sk": "kniha", "pron": "책", "rom": "chaek", "example": { "ko": "책을 읽어요.", "sk": "Čítam knihu." } },
+        { "ko": "연필", "sk": "ceruzka", "pron": "연필", "rom": "yeonpil", "example": { "ko": "연필 있어요?", "sk": "Máš ceruzku?" } },
+        { "ko": "숙제", "sk": "domáca úloha", "pron": "숙쩨", "rom": "sukje", "example": { "ko": "숙제가 많아요.", "sk": "Mám veľa úloh." } },
+        { "ko": "시험", "sk": "skúška, test", "pron": "시험", "rom": "siheom", "example": { "ko": "내일 시험이 있어요.", "sk": "Zajtra mám skúšku." } },
+        { "ko": "교실", "sk": "trieda (miestnosť)", "pron": "교실", "rom": "gyosil", "example": { "ko": "교실이 조용해요.", "sk": "V triede je ticho." } },
+        { "ko": "한국어", "sk": "kórejčina", "pron": "한구거", "rom": "hangugeo", "example": { "ko": "한국어를 공부해요.", "sk": "Učím sa kórejčinu." }, "note": "Spojenie: ㄱ preskočí do slabiky 어." },
+        { "ko": "단어", "sk": "slovo, slovíčko", "pron": "다너", "rom": "daneo", "example": { "ko": "단어를 외워요.", "sk": "Učím sa slovíčka naspamäť." } }
+      ]
+    },
+    {
+      "id": "travel",
+      "title": "Cestovanie",
+      "icon": "✈️",
+      "description": "Slová, ktoré sa zídu na letisku, v metre aj v hoteli.",
+      "words": [
+        { "ko": "여행", "sk": "cestovanie, výlet", "pron": "여행", "rom": "yeohaeng", "example": { "ko": "한국 여행을 가고 싶어요.", "sk": "Chcem ísť na výlet do Kórey." } },
+        { "ko": "공항", "sk": "letisko", "pron": "공항", "rom": "gonghang", "example": { "ko": "공항까지 얼마나 걸려요?", "sk": "Ako dlho to trvá na letisko?" } },
+        { "ko": "비행기", "sk": "lietadlo", "pron": "비행기", "rom": "bihaenggi", "example": { "ko": "비행기가 늦어요.", "sk": "Lietadlo mešká." } },
+        { "ko": "기차", "sk": "vlak", "pron": "기차", "rom": "gicha", "example": { "ko": "기차를 타요.", "sk": "Cestujem vlakom." } },
+        { "ko": "지하철", "sk": "metro", "pron": "지하철", "rom": "jihacheol", "example": { "ko": "지하철역이 어디예요?", "sk": "Kde je stanica metra?" } },
+        { "ko": "역", "sk": "stanica", "pron": "역", "rom": "yeok", "example": { "ko": "서울역에서 만나요.", "sk": "Stretneme sa na stanici Soul." } },
+        { "ko": "표", "sk": "lístok", "pron": "표", "rom": "pyo", "example": { "ko": "표 한 장 주세요.", "sk": "Jeden lístok, prosím." } },
+        { "ko": "여권", "sk": "pas", "pron": "여꿘", "rom": "yeogwon", "example": { "ko": "여권을 보여 주세요.", "sk": "Ukážte mi, prosím, pas." }, "note": "Výnimka: ㄱ sa sprísni bez viditeľného dôvodu." },
+        { "ko": "호텔", "sk": "hotel", "pron": "호텔", "rom": "hotel", "example": { "ko": "호텔을 예약했어요.", "sk": "Zarezervoval som hotel." } },
+        { "ko": "길", "sk": "cesta, ulica", "pron": "길", "rom": "gil", "example": { "ko": "길을 잃었어요.", "sk": "Stratil som sa." } }
+      ]
+    },
+    {
+      "id": "daily",
+      "title": "Každodenný život",
+      "icon": "☀️",
+      "description": "Frázy, ktoré počuješ každý deň – a skoro nikdy tak, ako sa píšu.",
+      "words": [
+        { "ko": "안녕하세요", "sk": "dobrý deň", "pron": "안녕하세요", "rom": "annyeonghaseyo", "example": { "ko": "안녕하세요, 반가워요.", "sk": "Dobrý deň, teší ma." } },
+        { "ko": "감사합니다", "sk": "ďakujem", "pron": "감사함니다", "rom": "gamsahamnida", "example": { "ko": "도와주셔서 감사합니다.", "sk": "Ďakujem, že ste mi pomohli." }, "note": "Nazalizácia: ㅂ pred ㄴ → ㅁ." },
+        { "ko": "괜찮아요", "sk": "to je v poriadku", "pron": "괜차나요", "rom": "gwaenchanayo", "example": { "ko": "저는 괜찮아요.", "sk": "Ja som v poriadku." } },
+        { "ko": "좋아요", "sk": "dobre; páči sa mi", "pron": "조아요", "rom": "joayo", "example": { "ko": "이 노래가 좋아요.", "sk": "Táto pieseň sa mi páči." } },
+        { "ko": "맛있어요", "sk": "je to chutné", "pron": "마시써요", "rom": "masisseoyo", "example": { "ko": "이거 정말 맛있어요!", "sk": "Toto je naozaj chutné!" } },
+        { "ko": "집", "sk": "dom, domov", "pron": "집", "rom": "jip", "example": { "ko": "집에 가요.", "sk": "Idem domov." } },
+        { "ko": "옷", "sk": "oblečenie", "pron": "옫", "rom": "ot", "example": { "ko": "새 옷을 샀어요.", "sk": "Kúpil som si nové oblečenie." } },
+        { "ko": "시간", "sk": "čas", "pron": "시간", "rom": "sigan", "example": { "ko": "시간 있어요?", "sk": "Máš čas?" } },
+        { "ko": "친구", "sk": "kamarát", "pron": "친구", "rom": "chingu", "example": { "ko": "친구를 만나요.", "sk": "Stretávam sa s kamarátom." } },
+        { "ko": "전화", "sk": "telefón, hovor", "pron": "전화", "rom": "jeonhwa", "example": { "ko": "전화해 주세요.", "sk": "Zavolajte mi, prosím." }, "note": "V rýchlej reči často znie ako [저놔]." }
+      ]
+    }
+  ]
+}

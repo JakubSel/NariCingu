@@ -1,0 +1,85 @@
+{
+  "levels": [
+    {
+      "id": "beginner",
+      "title": "Začiatočník",
+      "description": "Pomalšie prehrávanie, 2–3 možnosti, kontrasty, ktoré sa dajú počuť ľahšie.",
+      "options": 3,
+      "rate": 0.75,
+      "questions": 10,
+      "showWritten": true
+    },
+    {
+      "id": "intermediate",
+      "title": "Stredne pokročilý",
+      "description": "Normálne tempo, celé trojice ㄱ ㄲ ㅋ, viac podobných možností.",
+      "options": 4,
+      "rate": 0.9,
+      "questions": 12,
+      "showWritten": true
+    },
+    {
+      "id": "advanced",
+      "title": "Pokročilý",
+      "description": "Prirodzené tempo, veľmi podobné možnosti, bez písanej nápovedy.",
+      "options": 4,
+      "rate": 1.05,
+      "questions": 15,
+      "showWritten": false
+    }
+  ],
+  "exercises": [
+    {
+      "id": "sounds",
+      "type": "sounds",
+      "title": "Rozpoznávanie zvukov",
+      "description": "Počuješ slabiku – vyber, ktorú. Jemné vs. napäté vs. s výdychom.",
+      "icon": "🔊"
+    },
+    {
+      "id": "words",
+      "type": "words",
+      "title": "Rozpoznávanie slov",
+      "description": "Počuješ slovo – nájdi ho medzi podobne vyzerajúcimi slovami.",
+      "icon": "📝"
+    },
+    {
+      "id": "meaning",
+      "type": "meaning",
+      "title": "Počúvanie s porozumením",
+      "description": "Počuješ kórejské slovo – vyber slovenský význam.",
+      "icon": "💬"
+    },
+    {
+      "id": "pairs",
+      "type": "pairs",
+      "title": "Minimálne páry",
+      "description": "Slová, ktoré sa líšia jediným zvukom: 불 / 뿔 / 풀.",
+      "icon": "⚖️"
+    },
+    {
+      "id": "assimilation",
+      "type": "assimilation",
+      "title": "Rozpoznávanie asimilácie",
+      "description": "Ako sa slovo naozaj vyslovuje? Vyber, čo počuješ.",
+      "icon": "🌊"
+    }
+  ],
+  "soundSets": {
+    "beginner": [
+      ["가", "카"], ["다", "타"], ["바", "파"], ["자", "차"],
+      ["나", "라"], ["마", "바"], ["아", "어"], ["오", "우"],
+      ["이", "으"], ["사", "하"], ["고", "코"], ["두", "투"]
+    ],
+    "intermediate": [
+      ["가", "까", "카"], ["다", "따", "타"], ["바", "빠", "파"], ["자", "짜", "차"],
+      ["사", "싸"], ["어", "오", "우"], ["으", "우"], ["거", "고", "구"],
+      ["기", "끼", "키"], ["보", "뽀", "포"]
+    ],
+    "advanced": [
+      ["거", "꺼", "커"], ["두", "뚜", "투"], ["버", "뻐", "퍼"], ["주", "쭈", "추"],
+      ["서", "써"], ["시", "씨"], ["그", "끄", "크"], ["더", "도", "두"],
+      ["저", "조", "주"], ["얼", "올", "울"], ["갈", "깔", "칼"], ["불", "뿔", "풀"]
+    ]
+  }
+}
