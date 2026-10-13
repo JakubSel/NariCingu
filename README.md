@@ -3,6 +3,8 @@
 Webová aplikácia pre slovenských študentov kórejčiny. Nezameriava sa na slovíčka, ale na **sluch**:
 rozlíšiť ㄱ / ㄲ / ㅋ, pochopiť asimiláciu (한국말 → [한궁말]) a rozumieť skutočnej reči.
 
+**🌐 Aplikácia: https://jakubsel.github.io/NariCingu/**
+
 React + TypeScript + Vite + Tailwind CSS. Bez backendu – obsah je v JSON súboroch, pokrok v `localStorage`.
 
 ## Spustenie
@@ -44,3 +46,9 @@ Ak nahrávka chýba alebo sa nenačíta, automaticky sa použije syntéza reči.
 
 Ukladá sa v `localStorage` (`naricingu:progress:v1`, `naricingu:settings`). V Nastaveniach sa dá
 stiahnuť záloha, načítať ju na inom zariadení alebo pokrok vymazať.
+
+## Licencia
+
+© 2026 JakubSel. Všetky práva vyhradené. Kód je verejný iba na nahliadnutie – bez písomného súhlasu
+autora ho nie je dovolené používať, kopírovať, upravovať ani šíriť. Používanie
+[aplikácie](https://jakubsel.github.io/NariCingu/) na osobné učenie je povolené. Podrobnosti v [LICENSE](LICENSE).
