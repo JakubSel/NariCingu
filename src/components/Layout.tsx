@@ -4,7 +4,7 @@ import { koreanVoices, onVoicesChanged, ttsSupported, voicesReady } from '../lib
 import { streak, useProgress } from '../lib/progress';
 import { updateSettings, useSettings } from '../lib/settings';
 import { cn } from '../lib/utils';
-import { BookIcon, FlameIcon, HanIcon, HeadphonesIcon, HomeIcon, MoonIcon, SlidersIcon, SunIcon, TargetIcon, WavesIcon, XIcon } from './Icons';
+import { BookIcon, FlameIcon, HanIcon, HeadphonesIcon, HomeIcon, MoonIcon, PenIcon, SlidersIcon, SunIcon, TargetIcon, WavesIcon, XIcon } from './Icons';
 
 const NAV: { to: string; label: string; short: string; icon: ComponentType<{ className?: string }>; end?: boolean }[] = [
   { to: '/', label: 'Prehľad', short: 'Domov', icon: HomeIcon, end: true },
@@ -12,6 +12,7 @@ const NAV: { to: string; label: string; short: string; icon: ComponentType<{ cla
   { to: '/trener', label: 'Tréner výslovnosti', short: 'Tréner', icon: TargetIcon },
   { to: '/asimilacia', label: 'Asimilácia', short: 'Zmeny', icon: WavesIcon },
   { to: '/pocuvanie', label: 'Tréning počúvania', short: 'Počúvanie', icon: HeadphonesIcon },
+  { to: '/pisanie', label: 'Písanie', short: 'Písanie', icon: PenIcon },
   { to: '/slovicka', label: 'Slovná zásoba', short: 'Slová', icon: BookIcon },
 ];
 
@@ -180,7 +181,7 @@ export default function Layout() {
 
         {/* Spodná navigácia – mobil */}
         <nav className="safe-bottom fixed inset-x-0 bottom-0 z-20 border-t border-slate-200 bg-white/95 backdrop-blur dark:border-slate-800 dark:bg-slate-950/95 md:hidden">
-          <div className="grid grid-cols-6">
+          <div className="grid grid-cols-7">
             {NAV.map(({ to, short, icon: Icon, end }) => (
               <NavLink
                 key={to}
@@ -188,7 +189,7 @@ export default function Layout() {
                 end={end}
                 className={({ isActive }) =>
                   cn(
-                    'flex flex-col items-center gap-0.5 py-2 text-[10.5px] font-medium',
+                    'flex min-w-0 flex-col items-center gap-0.5 truncate py-2 text-[10px] font-medium',
                     isActive ? 'text-indigo-600 dark:text-indigo-400' : 'text-slate-500 dark:text-slate-400',
                   )
                 }

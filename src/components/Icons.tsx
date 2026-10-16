@@ -145,6 +145,13 @@ export const EyeIcon = (p: P) => (
   </svg>
 );
 
+export const PenIcon = (p: P) => (
+  <svg {...base(p)}>
+    <path d="M12 20h9" />
+    <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z" />
+  </svg>
+);
+
 export const HanIcon = ({ className }: { className?: string }) => (
   <span className={`ko inline-grid h-5 w-5 place-items-center text-[17px] font-bold leading-none ${className ?? ''}`} aria-hidden>
     한

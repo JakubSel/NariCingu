@@ -8,6 +8,8 @@ export interface Settings {
   voiceURI: string;
   autoplay: boolean;
   level: string;
+  /** Zobrazovať výslovnosť (romanizáciu) pod možnosťami v kvízoch ešte pred odpoveďou. */
+  showHints: boolean;
 }
 
 export const settingsStore = createStore<Settings>('naricingu:settings', () => ({
@@ -16,6 +18,7 @@ export const settingsStore = createStore<Settings>('naricingu:settings', () => (
   voiceURI: '',
   autoplay: true,
   level: 'beginner',
+  showHints: false,
 }));
 
 export const useSettings = settingsStore.use;

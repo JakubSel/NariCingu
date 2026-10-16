@@ -121,6 +121,18 @@ export function visit(item: Omit<RecentItem, 'at'>) {
   }));
 }
 
+/** Aktivita bez hodnotenia (napr. písanie) – počíta sa do dnešnej aktivity a série dní. */
+export function recordPractice(key: string) {
+  progressStore.set((s) => {
+    const today = dayKey();
+    return {
+      ...s,
+      days: { ...s.days, [today]: (s.days[today] ?? 0) + 1 },
+      seen: { ...s.seen, [key]: Date.now() },
+    };
+  });
+}
+
 export function markSeen(key: string) {
   if (progressStore.get().seen[key]) return;
   progressStore.set((s) => ({ ...s, seen: { ...s.seen, [key]: Date.now() } }));

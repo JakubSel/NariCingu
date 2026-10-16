@@ -2,9 +2,9 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { play, playSequence, stop } from '../lib/audio';
 import type { QuizQuestion } from '../lib/generators';
 import { recordAnswer, recordSession, type Area } from '../lib/progress';
-import { useSettings } from '../lib/settings';
+import { updateSettings, useSettings } from '../lib/settings';
 import { cn, shuffle } from '../lib/utils';
-import { CheckIcon, ChevronRight, HeadphonesIcon, PlayIcon, RepeatIcon, XIcon } from './Icons';
+import { CheckIcon, ChevronRight, EyeIcon, HeadphonesIcon, PlayIcon, RepeatIcon, XIcon } from './Icons';
 import PlayButton from './PlayButton';
 import { ProgressBar, Ring } from './ui';
 
@@ -131,6 +131,8 @@ export default function Quiz({ questions: initial, area, sessionKey, sessionTitl
       if (e.key === ' ' || e.key.toLowerCase() === 'r') {
         e.preventDefault();
         playQuestion();
+      } else if (e.key.toLowerCase() === 'h') {
+        updateSettings({ showHints: !settings.showHints });
       } else if (e.key.toLowerCase() === 's') {
         playQuestion(true);
       } else if (/^[1-9]$/.test(e.key)) {
@@ -167,7 +169,7 @@ export default function Quiz({ questions: initial, area, sessionKey, sessionTitl
         </button>
         <p className="mt-5 hidden text-xs text-slate-400 sm:block">
           <span className="kbd">Medzera</span> prehrať · <span className="kbd">S</span> pomaly · <span className="kbd">1</span>–<span className="kbd">4</span> odpoveď ·{' '}
-          <span className="kbd">Enter</span> ďalej
+          <span className="kbd">Enter</span> ďalej · <span className="kbd">H</span> výslovnosť
         </p>
       </div>
     );
@@ -262,6 +264,22 @@ export default function Quiz({ questions: initial, area, sessionKey, sessionTitl
             🐢 pomaly
           </button>
         </div>
+        {q.options.some((o) => o.sub) && (
+          <button
+            onClick={() => updateSettings({ showHints: !settings.showHints })}
+            aria-pressed={settings.showHints}
+            className={cn(
+              'mt-4 inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-medium transition',
+              settings.showHints
+                ? 'bg-indigo-100 text-indigo-700 dark:bg-indigo-500/20 dark:text-indigo-300'
+                : 'bg-slate-100 text-slate-500 hover:text-slate-700 dark:bg-slate-800 dark:text-slate-400 dark:hover:text-slate-200',
+            )}
+            title="Nápoveda pod možnosťami (klávesa H)"
+          >
+            <EyeIcon width={14} height={14} />
+            {settings.showHints ? 'Skryť výslovnosť' : 'Ukázať výslovnosť'}
+          </button>
+        )}
         {q.showText && (
           <div className="mt-5">
             <div className="ko text-3xl font-bold sm:text-4xl">{q.showText}</div>
@@ -290,7 +308,7 @@ export default function Quiz({ questions: initial, area, sessionKey, sessionTitl
               >
                 <span className="absolute left-2.5 top-2 hidden text-[10px] font-semibold text-slate-400 sm:block">{i + 1}</span>
                 <span className={cn('ko block font-bold', compact ? 'text-3xl sm:text-4xl' : 'text-lg')}>{o.label}</span>
-                {o.sub && <span className="mt-0.5 block text-xs text-slate-500">{o.sub}</span>}
+                {o.sub && (settings.showHints || answered) && <span className="mt-0.5 block text-xs text-slate-500">{o.sub}</span>}
                 {answered && o.after && <span className="mt-0.5 block text-xs text-slate-500 dark:text-slate-400">{o.after}</span>}
               </button>
               {answered && o.audioText && (

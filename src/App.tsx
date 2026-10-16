@@ -13,6 +13,7 @@ import Settings from './pages/Settings';
 import TrainerLesson from './pages/TrainerLesson';
 import TrainerList from './pages/TrainerList';
 import Vocabulary from './pages/Vocabulary';
+import Writing from './pages/Writing';
 import VocabularyCategory from './pages/VocabularyCategory';
 
 // HashRouter: na GitHub Pages funguje bez presmerovaní (žiadne 404 pri obnovení stránky).
@@ -31,6 +32,7 @@ export default function App() {
             <Route path="asimilacia/:id" element={<AssimilationRule />} />
             <Route path="pocuvanie" element={<Listening />} />
             <Route path="pocuvanie/:id" element={<ListeningSession />} />
+            <Route path="pisanie" element={<Writing />} />
             <Route path="slovicka" element={<Vocabulary />} />
             <Route path="slovicka/:id" element={<VocabularyCategory />} />
             <Route path="nastavenia" element={<Settings />} />
