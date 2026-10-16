@@ -1,0 +1,301 @@
+{
+  "version": 1,
+  "id": "story004",
+  "title": "마르틴의 서울 여행",
+  "titleTranslations": {
+    "sk": "Martinov výlet do Soulu"
+  },
+  "level": "A2",
+  "language": "ko",
+  "audio": "story004.mp3",
+  "duration": 32.36,
+  "voice": {
+    "engine": "qwen3-tts",
+    "model": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+    "speaker": "Sohee"
+  },
+  "tags": [],
+  "created": "2026-10-16T17:37:00+00:00",
+  "sentences": [
+    {
+      "id": 1,
+      "paragraph": 0,
+      "text": "마르틴은 슬로바키아 사람이에요.",
+      "start": 0.3,
+      "end": 2.8,
+      "translations": {
+        "sk": "Martin je Slovák."
+      },
+      "pronunciation": "마르티는 슬로바키아 사라미에요.",
+      "assimilation": [
+        {
+          "text": "마르틴은",
+          "pronunciation": "마르티는",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄴ sa presúva do ďalšej slabiky"
+        },
+        {
+          "text": "사람이에요",
+          "pronunciation": "사라미에요",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㅁ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": 0,
+      "text": "지금 처음으로 서울에 있어요.",
+      "start": 3.5,
+      "end": 5.78,
+      "translations": {
+        "sk": "Teraz je prvýkrát v Soule."
+      },
+      "pronunciation": "지금 처으므로 서우레 이써요.",
+      "assimilation": [
+        {
+          "text": "처음으로",
+          "pronunciation": "처으므로",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㅁ sa presúva do ďalšej slabiky"
+        },
+        {
+          "text": "서울에",
+          "pronunciation": "서우레",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄹ sa presúva do ďalšej slabiky"
+        },
+        {
+          "text": "있어요",
+          "pronunciation": "이써요",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㅆ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": 0,
+      "text": "서울은 아주 크고 사람이 많아요.",
+      "start": 6.48,
+      "end": 9.31,
+      "translations": {
+        "sk": "Soul je veľmi veľký a je tam veľa ľudí."
+      },
+      "pronunciation": "서우른 아주 크고 사라미 마나요.",
+      "assimilation": [
+        {
+          "text": "서울은",
+          "pronunciation": "서우른",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄹ sa presúva do ďalšej slabiky"
+        },
+        {
+          "text": "사람이",
+          "pronunciation": "사라미",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㅁ sa presúva do ďalšej slabiky"
+        },
+        {
+          "text": "많아요",
+          "pronunciation": "마나요",
+          "rules": [
+            "h_deletion",
+            "liaison"
+          ],
+          "note": "ㅎ pred samohláskou nevyslovujeme; ㄴ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": 1,
+      "text": "마르틴은 배가 고파요.",
+      "start": 10.51,
+      "end": 12.14,
+      "translations": {
+        "sk": "Martin je hladný."
+      },
+      "pronunciation": "마르티는 배가 고파요.",
+      "assimilation": [
+        {
+          "text": "마르틴은",
+          "pronunciation": "마르티는",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄴ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": 1,
+      "text": "그래서 작은 식당에 들어가요.",
+      "start": 12.84,
+      "end": 15.43,
+      "translations": {
+        "sk": "Preto vojde do malej reštaurácie."
+      },
+      "pronunciation": "그래서 자근 식땅에 드러가요.",
+      "assimilation": [
+        {
+          "text": "작은",
+          "pronunciation": "자근",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄱ sa presúva do ďalšej slabiky"
+        },
+        {
+          "text": "식당에",
+          "pronunciation": "식땅에",
+          "rules": [
+            "tensification"
+          ],
+          "note": "ㄷ po ㄱ znie napäto ako ㄸ"
+        },
+        {
+          "text": "들어가요",
+          "pronunciation": "드러가요",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄹ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": 1,
+      "text": "메뉴는 모두 한국어예요.",
+      "start": 16.13,
+      "end": 18.08,
+      "translations": {
+        "sk": "Menu je celé po kórejsky."
+      },
+      "pronunciation": "메뉴는 모두 한구거예요.",
+      "assimilation": [
+        {
+          "text": "한국어예요",
+          "pronunciation": "한구거예요",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄱ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": 2,
+      "text": "마르틴은 천천히 메뉴를 읽어요.",
+      "start": 19.28,
+      "end": 21.8,
+      "translations": {
+        "sk": "Martin pomaly číta menu."
+      },
+      "pronunciation": "마르티는 천천히 메뉴를 일거요.",
+      "assimilation": [
+        {
+          "text": "마르틴은",
+          "pronunciation": "마르티는",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄴ sa presúva do ďalšej slabiky"
+        },
+        {
+          "text": "읽어요",
+          "pronunciation": "일거요",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄺ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": 2,
+      "text": "\"비빔밥 하나 주세요.\"",
+      "start": 22.5,
+      "end": 23.81,
+      "translations": {
+        "sk": "„Jedno bibimbap, prosím.“"
+      }
+    },
+    {
+      "id": 9,
+      "paragraph": 2,
+      "text": "사장님이 웃으면서 \"한국어를 잘하시네요!\"라고 말해요.",
+      "start": 24.51,
+      "end": 28.51,
+      "translations": {
+        "sk": "Majiteľ sa usmeje a povie: „Hovoríte veľmi dobre po kórejsky!“"
+      },
+      "pronunciation": "사장니미 우스면서 \"한구거를 잘하시네요!\"라고 말해요.",
+      "assimilation": [
+        {
+          "text": "사장님이",
+          "pronunciation": "사장니미",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㅁ sa presúva do ďalšej slabiky"
+        },
+        {
+          "text": "웃으면서",
+          "pronunciation": "우스면서",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㅅ sa presúva do ďalšej slabiky"
+        },
+        {
+          "text": "한국어를",
+          "pronunciation": "한구거를",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄱ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": 2,
+      "text": "마르틴은 아주 기뻐요.",
+      "start": 29.21,
+      "end": 31.56,
+      "translations": {
+        "sk": "Martin má veľkú radosť."
+      },
+      "pronunciation": "마르티는 아주 기뻐요.",
+      "assimilation": [
+        {
+          "text": "마르틴은",
+          "pronunciation": "마르티는",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄴ sa presúva do ďalšej slabiky"
+        }
+      ]
+    }
+  ]
+}

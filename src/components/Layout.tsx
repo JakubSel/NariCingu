@@ -4,7 +4,7 @@ import { koreanVoices, onVoicesChanged, ttsSupported, voicesReady } from '../lib
 import { streak, useProgress } from '../lib/progress';
 import { updateSettings, useSettings } from '../lib/settings';
 import { cn } from '../lib/utils';
-import { BookIcon, FlameIcon, HanIcon, HeadphonesIcon, HomeIcon, MoonIcon, PenIcon, SlidersIcon, SunIcon, TargetIcon, WavesIcon, XIcon } from './Icons';
+import { BookIcon, FlameIcon, HanIcon, HeadphonesIcon, HomeIcon, MoonIcon, PenIcon, SlidersIcon, StoryIcon, SunIcon, TargetIcon, WavesIcon, XIcon } from './Icons';
 
 const NAV: { to: string; label: string; short: string; icon: ComponentType<{ className?: string }>; end?: boolean }[] = [
   { to: '/', label: 'Prehľad', short: 'Domov', icon: HomeIcon, end: true },
@@ -14,6 +14,7 @@ const NAV: { to: string; label: string; short: string; icon: ComponentType<{ cla
   { to: '/pocuvanie', label: 'Tréning počúvania', short: 'Počúvanie', icon: HeadphonesIcon },
   { to: '/pisanie', label: 'Písanie', short: 'Písanie', icon: PenIcon },
   { to: '/slovicka', label: 'Slovná zásoba', short: 'Slová', icon: BookIcon },
+  { to: '/pribehy', label: 'Príbehy', short: 'Príbehy', icon: StoryIcon },
 ];
 
 const darkQuery = () => window.matchMedia('(prefers-color-scheme: dark)');
@@ -109,6 +110,8 @@ function StreakBadge() {
 
 export default function Layout() {
   const { pathname } = useLocation();
+  // Čítačka príbehov má vlastný pevný prehrávač dole, ktorý na mobile nahrádza spodnú navigáciu.
+  const inStory = /^\/pribehy\/./.test(pathname);
   useThemeEffect();
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -175,31 +178,33 @@ export default function Layout() {
         </header>
 
         <main className="mx-auto max-w-5xl px-4 pb-28 pt-5 sm:px-6 md:pb-12 md:pt-8 lg:px-8">
-          <VoiceBanner />
+          {!pathname.startsWith('/pribehy') && <VoiceBanner />}
           <Outlet />
         </main>
 
         {/* Spodná navigácia – mobil */}
-        <nav className="safe-bottom fixed inset-x-0 bottom-0 z-20 border-t border-slate-200 bg-white/95 backdrop-blur dark:border-slate-800 dark:bg-slate-950/95 md:hidden">
-          <div className="grid grid-cols-7">
-            {NAV.map(({ to, short, icon: Icon, end }) => (
-              <NavLink
-                key={to}
-                to={to}
-                end={end}
-                className={({ isActive }) =>
-                  cn(
-                    'flex min-w-0 flex-col items-center gap-0.5 truncate py-2 text-[10px] font-medium',
-                    isActive ? 'text-indigo-600 dark:text-indigo-400' : 'text-slate-500 dark:text-slate-400',
-                  )
-                }
-              >
-                <Icon className="h-5 w-5" />
-                {short}
-              </NavLink>
-            ))}
-          </div>
-        </nav>
+        {!inStory && (
+          <nav className="safe-bottom fixed inset-x-0 bottom-0 z-20 border-t border-slate-200 bg-white/95 backdrop-blur dark:border-slate-800 dark:bg-slate-950/95 md:hidden">
+            <div className="grid grid-cols-8">
+              {NAV.map(({ to, short, icon: Icon, end }) => (
+                <NavLink
+                  key={to}
+                  to={to}
+                  end={end}
+                  className={({ isActive }) =>
+                    cn(
+                      'flex min-w-0 flex-col items-center gap-0.5 truncate py-2 text-[10px] font-medium',
+                      isActive ? 'text-indigo-600 dark:text-indigo-400' : 'text-slate-500 dark:text-slate-400',
+                    )
+                  }
+                >
+                  <Icon className="h-5 w-5" />
+                  {short}
+                </NavLink>
+              ))}
+            </div>
+          </nav>
+        )}
       </div>
     </div>
   );

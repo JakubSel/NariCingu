@@ -158,7 +158,7 @@ function Pairs({ lesson }: { lesson: Lesson }) {
   );
   return (
     <div className="space-y-6">
-      <div className="grid gap-3 sm:grid-cols-2">
+      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
         {lesson.minimalSets.map((set, si) => (
           <div key={si} className="card p-4">
             <div className="mb-3 flex items-center justify-between">
@@ -192,7 +192,7 @@ function LessonProgress({ lesson }: { lesson: Lesson }) {
 
   return (
     <div className="space-y-4">
-      <div className="grid gap-3 sm:grid-cols-2">
+      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
         <div className="card p-4">
           <div className="text-xs text-slate-500">Kvíz – najlepší výsledok</div>
           <div className={`text-2xl font-bold ${accText(s?.best ?? null)}`}>{s ? `${s.best} %` : '–'}</div>

@@ -34,6 +34,7 @@ npm run preview    # preview the build
 | **Listening training** | 5 exercise types × 3 levels, no visual hints |
 | **Writing** | handwriting on a canvas – dictation or from pronunciation, the correct form appears in the background |
 | **Vocabulary** | 6 categories, actual pronunciation, example sentences, quizzes |
+| **Stories** | short Korean stories with a real voice: the current sentence is highlighted, click a sentence to jump, repeat a sentence, speed 0.75–1.25×, Slovak translation and pronunciation notes |
 
 Quizzes adapt to the learner: sounds you get wrong appear more often. After a mistake, the correct sound
 and your choice are played back to back for comparison. Mistakes can be repeated right away.
@@ -49,9 +50,24 @@ To use your own recordings, put them into `public/audio/` and add an `audio` fie
 
 If a recording is missing or fails to load, speech synthesis is used automatically.
 
+### Stories
+
+Stories are made in the separate Korean Story Lab app. Each story is `storyNNN.json` + `storyNNN.mp3`
+in `public/stories/`, listed in `public/stories/index.json`. To add or update stories:
+
+```bash
+npm run sync-stories -- C:/path/to/korean-story-lab/data/stories                # the whole folder
+npm run sync-stories -- C:/path/to/korean-story-lab/data/stories/story005.json  # a single story
+npm run sync-stories                                                            # only rebuild index.json
+```
+
+The script copies each JSON with its MP3 (skipping `demo.*` and stories tagged `demo`) and rebuilds
+`index.json` from the files in `public/stories/`. Only stories whose MP3 exists are listed.
+Don't edit `index.json` by hand.
+
 ### Progress
 
-Stored in `localStorage` (`naricingu:progress:v1`, `naricingu:settings`). In Settings you can download
+Stored in `localStorage` (`naricingu:progress:v1`, `naricingu:settings`, `naricingu:stories:v1` for stories). In Settings you can download
 a backup, load it on another device, or reset your progress.
 
 ### License
@@ -96,6 +112,7 @@ npm run preview    # náhľad buildu
 | **Tréning počúvania** | 5 typov cvičení × 3 úrovne, bez vizuálnych nápovied |
 | **Písanie** | písanie rukou na plátne – diktát alebo podľa výslovnosti, správny tvar sa ukáže na pozadí |
 | **Slovná zásoba** | 6 kategórií, skutočná výslovnosť, príkladové vety, kvízy |
+| **Príbehy** | krátke kórejské príbehy s ozajstným hlasom: zvýraznená aktuálna veta, skok na vetu kliknutím, opakovanie vety, rýchlosť 0,75–1,25×, slovenský preklad a poznámky k výslovnosti |
 
 Kvízy sa prispôsobujú: zvuky, pri ktorých sa mýliš, sa objavujú častejšie. Po chybe sa automaticky
 prehrá správny zvuk a tvoja voľba za sebou na porovnanie. Chyby sa dajú hneď zopakovať.
@@ -111,9 +128,24 @@ Ak chceš použiť vlastné nahrávky, ulož ich do `public/audio/` a pridaj k p
 
 Ak nahrávka chýba alebo sa nenačíta, automaticky sa použije syntéza reči.
 
+### Príbehy
+
+Príbehy vznikajú v samostatnej aplikácii Korean Story Lab. Každý príbeh je `storyNNN.json` + `storyNNN.mp3`
+v `public/stories/` a zoznam je v `public/stories/index.json`. Pridanie alebo aktualizácia:
+
+```bash
+npm run sync-stories -- C:/cesta/ku/korean-story-lab/data/stories                # celý priečinok
+npm run sync-stories -- C:/cesta/ku/korean-story-lab/data/stories/story005.json  # jeden príbeh
+npm run sync-stories                                                             # len prepočítať index.json
+```
+
+Skript skopíruje každý JSON aj s MP3 (vynechá `demo.*` a príbehy so štítkom `demo`) a znova vytvorí
+`index.json` zo súborov v `public/stories/`. V zozname sú len príbehy, ktorých MP3 existuje.
+`index.json` neupravuj ručne.
+
 ### Pokrok
 
-Ukladá sa v `localStorage` (`naricingu:progress:v1`, `naricingu:settings`). V Nastaveniach sa dá
+Ukladá sa v `localStorage` (`naricingu:progress:v1`, `naricingu:settings`, pri príbehoch `naricingu:stories:v1`). V Nastaveniach sa dá
 stiahnuť záloha, načítať ju na inom zariadení alebo pokrok vymazať.
 
 ### Licencia

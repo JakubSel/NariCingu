@@ -1,0 +1,247 @@
+{
+  "version": 1,
+  "id": "story002",
+  "title": "지민의 아침",
+  "titleTranslations": {
+    "sk": "Džiminovo ráno"
+  },
+  "level": "A1",
+  "language": "ko",
+  "audio": "story002.mp3",
+  "duration": 27.74,
+  "voice": {
+    "engine": "qwen3-tts",
+    "model": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+    "speaker": "Sohee"
+  },
+  "tags": [],
+  "created": "2026-10-16T17:28:29+00:00",
+  "sentences": [
+    {
+      "id": 1,
+      "paragraph": 0,
+      "text": "지민은 아침 일곱 시에 일어나요.",
+      "start": 0.3,
+      "end": 3.62,
+      "translations": {
+        "sk": "Džimin vstáva ráno o siedmej."
+      },
+      "pronunciation": "지미는 아침 일곱 시에 이러나요.",
+      "assimilation": [
+        {
+          "text": "지민은",
+          "pronunciation": "지미는",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄴ sa presúva do ďalšej slabiky"
+        },
+        {
+          "text": "일어나요",
+          "pronunciation": "이러나요",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄹ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": 0,
+      "text": "창문을 열고 하늘을 봐요.",
+      "start": 4.32,
+      "end": 6.48,
+      "translations": {
+        "sk": "Otvorí okno a pozrie sa na oblohu."
+      },
+      "pronunciation": "창무늘 열고 하느를 봐요.",
+      "assimilation": [
+        {
+          "text": "창문을",
+          "pronunciation": "창무늘",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄴ sa presúva do ďalšej slabiky"
+        },
+        {
+          "text": "하늘을",
+          "pronunciation": "하느를",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄹ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": 0,
+      "text": "오늘은 날씨가 아주 좋아요.",
+      "start": 7.18,
+      "end": 9.13,
+      "translations": {
+        "sk": "Dnes je veľmi pekné počasie."
+      },
+      "pronunciation": "오느른 날씨가 아주 조아요.",
+      "assimilation": [
+        {
+          "text": "오늘은",
+          "pronunciation": "오느른",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄹ sa presúva do ďalšej slabiky"
+        },
+        {
+          "text": "좋아요",
+          "pronunciation": "조아요",
+          "rules": [
+            "h_deletion"
+          ],
+          "note": "ㅎ pred samohláskou nevyslovujeme"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": 1,
+      "text": "지민은 부엌에 가요.",
+      "start": 10.33,
+      "end": 12.05,
+      "translations": {
+        "sk": "Džimin ide do kuchyne."
+      },
+      "pronunciation": "지미는 부어케 가요.",
+      "assimilation": [
+        {
+          "text": "지민은",
+          "pronunciation": "지미는",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄴ sa presúva do ďalšej slabiky"
+        },
+        {
+          "text": "부엌에",
+          "pronunciation": "부어케",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㅋ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": 1,
+      "text": "빵과 우유를 먹어요.",
+      "start": 12.75,
+      "end": 14.3,
+      "translations": {
+        "sk": "Je chlieb a pije mlieko."
+      },
+      "pronunciation": "빵과 우유를 머거요.",
+      "assimilation": [
+        {
+          "text": "먹어요",
+          "pronunciation": "머거요",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄱ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": 1,
+      "text": "엄마는 커피를 마셔요.",
+      "start": 15.0,
+      "end": 17.19,
+      "translations": {
+        "sk": "Mama pije kávu."
+      }
+    },
+    {
+      "id": 7,
+      "paragraph": 2,
+      "text": "여덟 시에 지민은 집에서 나가요.",
+      "start": 18.39,
+      "end": 21.78,
+      "translations": {
+        "sk": "O ôsmej Džimin odchádza z domu."
+      },
+      "pronunciation": "여덜 시에 지미는 지베서 나가요.",
+      "assimilation": [
+        {
+          "text": "여덟",
+          "pronunciation": "여덜",
+          "rules": [
+            "double_final"
+          ],
+          "note": "z ㄼ sa vyslovuje ㄹ"
+        },
+        {
+          "text": "지민은",
+          "pronunciation": "지미는",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄴ sa presúva do ďalšej slabiky"
+        },
+        {
+          "text": "집에서",
+          "pronunciation": "지베서",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㅂ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": 2,
+      "text": "버스를 타고 학교에 가요.",
+      "start": 22.48,
+      "end": 24.44,
+      "translations": {
+        "sk": "Nastúpi do autobusu a ide do školy."
+      },
+      "pronunciation": "버스를 타고 학꾜에 가요.",
+      "assimilation": [
+        {
+          "text": "학교에",
+          "pronunciation": "학꾜에",
+          "rules": [
+            "tensification"
+          ],
+          "note": "ㄱ po ㄱ znie napäto ako ㄲ"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": 2,
+      "text": "학교에서 친구를 만나요.",
+      "start": 25.14,
+      "end": 26.94,
+      "translations": {
+        "sk": "V škole sa stretne s kamarátom."
+      },
+      "pronunciation": "학꾜에서 친구를 만나요.",
+      "assimilation": [
+        {
+          "text": "학교에서",
+          "pronunciation": "학꾜에서",
+          "rules": [
+            "tensification"
+          ],
+          "note": "ㄱ po ㄱ znie napäto ako ㄲ"
+        }
+      ]
+    }
+  ]
+}

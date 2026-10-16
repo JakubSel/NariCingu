@@ -50,6 +50,13 @@ export const BookIcon = (p: P) => (
   </svg>
 );
 
+export const StoryIcon = (p: P) => (
+  <svg {...base(p)}>
+    <path d="M2 4.5h6a4 4 0 0 1 4 4V21a3 3 0 0 0-3-3H2z" />
+    <path d="M22 4.5h-6a4 4 0 0 0-4 4V21a3 3 0 0 1 3-3h7z" />
+  </svg>
+);
+
 export const SlidersIcon = (p: P) => (
   <svg {...base(p)}>
     <path d="M4 6h9M17 6h3M4 12h3M11 12h9M4 18h11M19 18h1" />

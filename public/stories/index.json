@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "stories": [
+    {
+      "id": "story001",
+      "file": "story001.json",
+      "title": "민수의 고양이",
+      "titleTranslations": {
+        "sk": "Minsuova mačka"
+      },
+      "level": "A1",
+      "duration": 36.01,
+      "sentenceCount": 12,
+      "tags": [
+        "sample"
+      ],
+      "created": "2026-10-16T16:54:02+00:00"
+    },
+    {
+      "id": "story002",
+      "file": "story002.json",
+      "title": "지민의 아침",
+      "titleTranslations": {
+        "sk": "Džiminovo ráno"
+      },
+      "level": "A1",
+      "duration": 27.74,
+      "sentenceCount": 9,
+      "tags": [],
+      "created": "2026-10-16T17:28:29+00:00"
+    },
+    {
+      "id": "story003",
+      "file": "story003.json",
+      "title": "비 오는 날",
+      "titleTranslations": {
+        "sk": "Daždivý deň"
+      },
+      "level": "A1",
+      "duration": 31.11,
+      "sentenceCount": 10,
+      "tags": [],
+      "created": "2026-10-16T17:32:24+00:00"
+    },
+    {
+      "id": "story004",
+      "file": "story004.json",
+      "title": "마르틴의 서울 여행",
+      "titleTranslations": {
+        "sk": "Martinov výlet do Soulu"
+      },
+      "level": "A2",
+      "duration": 32.36,
+      "sentenceCount": 10,
+      "tags": [],
+      "created": "2026-10-16T17:37:00+00:00"
+    }
+  ]
+}

@@ -168,7 +168,7 @@ export default function Dashboard() {
         </div>
       </section>
 
-      <div className="grid gap-6 lg:grid-cols-5">
+      <div className="grid grid-cols-1 gap-6 lg:grid-cols-5">
         {/* Denný plán */}
         <section className="card p-5 lg:col-span-3">
           <div className="mb-3 flex items-center justify-between">
@@ -247,7 +247,7 @@ export default function Dashboard() {
         </section>
       </div>
 
-      <div className="grid gap-6 lg:grid-cols-2">
+      <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
         {/* Pokrok */}
         <section className="card p-5">
           <h2 className="mb-4 font-bold">Pokrok vo výučbe</h2>
@@ -300,7 +300,7 @@ export default function Dashboard() {
             .
           </p>
         ) : (
-          <ul className="grid gap-2 sm:grid-cols-2">
+          <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2">
             {p.recent.slice(0, 6).map((r) => (
               <li key={r.key}>
                 <Link to={r.path} className="flex items-center gap-3 rounded-xl p-2.5 transition hover:bg-slate-50 dark:hover:bg-slate-800/60">

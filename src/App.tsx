@@ -1,5 +1,6 @@
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import Layout from './components/Layout';
+import { StoriesLibrary, StoryReader } from './features/stories';
 import { ContentProvider } from './lib/content';
 import AssimilationList from './pages/AssimilationList';
 import AssimilationRule from './pages/AssimilationRule';
@@ -35,6 +36,8 @@ export default function App() {
             <Route path="pisanie" element={<Writing />} />
             <Route path="slovicka" element={<Vocabulary />} />
             <Route path="slovicka/:id" element={<VocabularyCategory />} />
+            <Route path="pribehy" element={<StoriesLibrary />} />
+            <Route path="pribehy/:id" element={<StoryReader />} />
             <Route path="nastavenia" element={<Settings />} />
             <Route path="*" element={<NotFound />} />
           </Route>

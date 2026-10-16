@@ -1,0 +1,277 @@
+{
+  "version": 1,
+  "id": "story003",
+  "title": "비 오는 날",
+  "titleTranslations": {
+    "sk": "Daždivý deň"
+  },
+  "level": "A1",
+  "language": "ko",
+  "audio": "story003.mp3",
+  "duration": 31.11,
+  "voice": {
+    "engine": "qwen3-tts",
+    "model": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+    "speaker": "Sohee"
+  },
+  "tags": [],
+  "created": "2026-10-16T17:32:24+00:00",
+  "sentences": [
+    {
+      "id": 1,
+      "paragraph": 0,
+      "text": "수아는 친구와 공원에 가고 싶어요.",
+      "start": 0.3,
+      "end": 3.7,
+      "translations": {
+        "sk": "Sua chce ísť s kamarátkou do parku."
+      },
+      "pronunciation": "수아는 친구와 공워네 가고 시퍼요.",
+      "assimilation": [
+        {
+          "text": "공원에",
+          "pronunciation": "공워네",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄴ sa presúva do ďalšej slabiky"
+        },
+        {
+          "text": "싶어요",
+          "pronunciation": "시퍼요",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㅍ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": 0,
+      "text": "그런데 갑자기 비가 와요.",
+      "start": 4.4,
+      "end": 7.12,
+      "translations": {
+        "sk": "Ale zrazu začne pršať."
+      },
+      "pronunciation": "그런데 갑짜기 비가 와요.",
+      "assimilation": [
+        {
+          "text": "갑자기",
+          "pronunciation": "갑짜기",
+          "rules": [
+            "tensification"
+          ],
+          "note": "ㅈ po ㅂ znie napäto ako ㅉ"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": 0,
+      "text": "수아는 우산이 없어요.",
+      "start": 7.82,
+      "end": 9.86,
+      "translations": {
+        "sk": "Sua nemá dáždnik."
+      },
+      "pronunciation": "수아는 우사니 업써요.",
+      "assimilation": [
+        {
+          "text": "우산이",
+          "pronunciation": "우사니",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄴ sa presúva do ďalšej slabiky"
+        },
+        {
+          "text": "없어요",
+          "pronunciation": "업써요",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㅄ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "paragraph": 1,
+      "text": "수아는 편의점에 들어가요.",
+      "start": 11.06,
+      "end": 13.02,
+      "translations": {
+        "sk": "Sua vojde do večierky."
+      },
+      "pronunciation": "수아는 펴니저메 드러가요.",
+      "assimilation": [
+        {
+          "text": "편의점에",
+          "pronunciation": "펴니저메",
+          "rules": [
+            "liaison",
+            "vowel"
+          ],
+          "note": "ㄴ sa presúva do ďalšej slabiky; ㅁ sa presúva do ďalšej slabiky; ㅢ po spoluhláske znie ako ㅣ"
+        },
+        {
+          "text": "들어가요",
+          "pronunciation": "드러가요",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄹ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": 1,
+      "text": "거기에서 작은 우산을 사요.",
+      "start": 13.72,
+      "end": 16.23,
+      "translations": {
+        "sk": "Tam si kúpi malý dáždnik."
+      },
+      "pronunciation": "거기에서 자근 우사늘 사요.",
+      "assimilation": [
+        {
+          "text": "작은",
+          "pronunciation": "자근",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄱ sa presúva do ďalšej slabiky"
+        },
+        {
+          "text": "우산을",
+          "pronunciation": "우사늘",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄴ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": 1,
+      "text": "우산은 노란색이에요.",
+      "start": 16.93,
+      "end": 18.55,
+      "translations": {
+        "sk": "Dáždnik je žltý."
+      },
+      "pronunciation": "우사는 노란새기에요.",
+      "assimilation": [
+        {
+          "text": "우산은",
+          "pronunciation": "우사는",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄴ sa presúva do ďalšej slabiky"
+        },
+        {
+          "text": "노란색이에요",
+          "pronunciation": "노란새기에요",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄱ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": 2,
+      "text": "수아가 공원에 도착해요.",
+      "start": 19.75,
+      "end": 22.03,
+      "translations": {
+        "sk": "Sua príde do parku."
+      },
+      "pronunciation": "수아가 공워네 도차캐요.",
+      "assimilation": [
+        {
+          "text": "공원에",
+          "pronunciation": "공워네",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄴ sa presúva do ďalšej slabiky"
+        },
+        {
+          "text": "도착해요",
+          "pronunciation": "도차캐요",
+          "rules": [
+            "aspiration"
+          ],
+          "note": "ㄱ + ㅎ splýva do ㅋ"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": 2,
+      "text": "그때 비가 그쳐요.",
+      "start": 22.73,
+      "end": 24.29,
+      "translations": {
+        "sk": "Vtedy prestane pršať."
+      }
+    },
+    {
+      "id": 9,
+      "paragraph": 2,
+      "text": "하늘에 무지개가 떠요.",
+      "start": 24.99,
+      "end": 26.53,
+      "translations": {
+        "sk": "Na oblohe sa objaví dúha."
+      },
+      "pronunciation": "하느레 무지개가 떠요.",
+      "assimilation": [
+        {
+          "text": "하늘에",
+          "pronunciation": "하느레",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄹ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": 2,
+      "text": "수아와 친구는 같이 웃어요.",
+      "start": 27.23,
+      "end": 30.31,
+      "translations": {
+        "sk": "Sua a kamarátka sa spolu smejú."
+      },
+      "pronunciation": "수아와 친구는 가치 우서요.",
+      "assimilation": [
+        {
+          "text": "같이",
+          "pronunciation": "가치",
+          "rules": [
+            "palatalization"
+          ],
+          "note": "ㅌ pred 이 znie ako ㅊ"
+        },
+        {
+          "text": "웃어요",
+          "pronunciation": "우서요",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㅅ sa presúva do ďalšej slabiky"
+        }
+      ]
+    }
+  ]
+}

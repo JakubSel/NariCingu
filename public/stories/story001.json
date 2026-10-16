@@ -1,0 +1,322 @@
+{
+  "version": 1,
+  "id": "story001",
+  "title": "민수의 고양이",
+  "titleTranslations": {
+    "sk": "Minsuova mačka"
+  },
+  "level": "A1",
+  "language": "ko",
+  "audio": "story001.mp3",
+  "duration": 36.01,
+  "voice": {
+    "engine": "qwen3-tts",
+    "model": "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice",
+    "speaker": "Sohee"
+  },
+  "tags": [
+    "sample"
+  ],
+  "created": "2026-10-16T16:54:02+00:00",
+  "sentences": [
+    {
+      "id": 1,
+      "paragraph": 0,
+      "text": "민수는 고양이가 있어요.",
+      "start": 0.3,
+      "end": 2.57,
+      "translations": {
+        "sk": "Minsu má mačku."
+      },
+      "pronunciation": "민수는 고양이가 이써요.",
+      "assimilation": [
+        {
+          "text": "있어요",
+          "pronunciation": "이써요",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㅆ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "paragraph": 0,
+      "text": "고양이 이름은 나비예요.",
+      "start": 3.27,
+      "end": 5.07,
+      "translations": {
+        "sk": "Mačka sa volá Nabi."
+      },
+      "pronunciation": "고양이 이르믄 나비예요.",
+      "assimilation": [
+        {
+          "text": "이름은",
+          "pronunciation": "이르믄",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㅁ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "paragraph": 0,
+      "text": "나비는 매우 귀여워요.",
+      "start": 5.77,
+      "end": 7.81,
+      "translations": {
+        "sk": "Nabi je veľmi zlatá."
+      }
+    },
+    {
+      "id": 4,
+      "paragraph": 1,
+      "text": "아침에 나비는 창문 앞에 앉아요.",
+      "start": 9.01,
+      "end": 11.51,
+      "translations": {
+        "sk": "Ráno Nabi sedí pred oknom."
+      },
+      "pronunciation": "아치메 나비는 창문 아페 안자요.",
+      "assimilation": [
+        {
+          "text": "아침에",
+          "pronunciation": "아치메",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㅁ sa presúva do ďalšej slabiky"
+        },
+        {
+          "text": "앞에",
+          "pronunciation": "아페",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㅍ sa presúva do ďalšej slabiky"
+        },
+        {
+          "text": "앉아요",
+          "pronunciation": "안자요",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄵ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "paragraph": 1,
+      "text": "밖에 새가 있어요.",
+      "start": 12.21,
+      "end": 13.73,
+      "translations": {
+        "sk": "Vonku je vták."
+      },
+      "pronunciation": "바께 새가 이써요.",
+      "assimilation": [
+        {
+          "text": "밖에",
+          "pronunciation": "바께",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄲ sa presúva do ďalšej slabiky"
+        },
+        {
+          "text": "있어요",
+          "pronunciation": "이써요",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㅆ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "paragraph": 1,
+      "text": "나비는 새를 보고 싶어요.",
+      "start": 14.43,
+      "end": 16.7,
+      "translations": {
+        "sk": "Nabi chce vidieť vtáka."
+      },
+      "pronunciation": "나비는 새를 보고 시퍼요.",
+      "assimilation": [
+        {
+          "text": "싶어요",
+          "pronunciation": "시퍼요",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㅍ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "paragraph": 2,
+      "text": "민수는 학교에 가요.",
+      "start": 17.9,
+      "end": 19.6,
+      "translations": {
+        "sk": "Minsu ide do školy."
+      },
+      "pronunciation": "민수는 학꾜에 가요.",
+      "assimilation": [
+        {
+          "text": "학교에",
+          "pronunciation": "학꾜에",
+          "rules": [
+            "tensification"
+          ],
+          "note": "ㄱ po ㄱ znie napäto ako ㄲ"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "paragraph": 2,
+      "text": "나비는 집에서 민수를 기다려요.",
+      "start": 20.3,
+      "end": 23.46,
+      "translations": {
+        "sk": "Nabi čaká na Minsua doma."
+      },
+      "pronunciation": "나비는 지베서 민수를 기다려요.",
+      "assimilation": [
+        {
+          "text": "집에서",
+          "pronunciation": "지베서",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㅂ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "paragraph": 2,
+      "text": "저녁에 민수가 집에 와요.",
+      "start": 24.16,
+      "end": 26.52,
+      "translations": {
+        "sk": "Večer Minsu príde domov."
+      },
+      "pronunciation": "저녀게 민수가 지베 와요.",
+      "assimilation": [
+        {
+          "text": "저녁에",
+          "pronunciation": "저녀게",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄱ sa presúva do ďalšej slabiky"
+        },
+        {
+          "text": "집에",
+          "pronunciation": "지베",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㅂ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "paragraph": 3,
+      "text": "\"나비야, 많이 기다렸어?\"",
+      "start": 27.72,
+      "end": 29.68,
+      "translations": {
+        "sk": "„Nabi, čakala si dlho?“"
+      },
+      "pronunciation": "\"나비야, 마니 기다려써?\"",
+      "assimilation": [
+        {
+          "text": "많이",
+          "pronunciation": "마니",
+          "rules": [
+            "h_deletion",
+            "liaison"
+          ],
+          "note": "ㅎ pred samohláskou nevyslovujeme; ㄴ sa presúva do ďalšej slabiky"
+        },
+        {
+          "text": "기다렸어",
+          "pronunciation": "기다려써",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㅆ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "paragraph": 3,
+      "text": "나비는 민수 옆에 누워요.",
+      "start": 30.38,
+      "end": 32.42,
+      "translations": {
+        "sk": "Nabi si ľahne vedľa Minsua."
+      },
+      "pronunciation": "나비는 민수 여페 누워요.",
+      "assimilation": [
+        {
+          "text": "옆에",
+          "pronunciation": "여페",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㅍ sa presúva do ďalšej slabiky"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "paragraph": 3,
+      "text": "둘은 같이 잠을 자요.",
+      "start": 33.12,
+      "end": 35.21,
+      "translations": {
+        "sk": "Spolu spia."
+      },
+      "pronunciation": "두른 가치 자믈 자요.",
+      "assimilation": [
+        {
+          "text": "둘은",
+          "pronunciation": "두른",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㄹ sa presúva do ďalšej slabiky"
+        },
+        {
+          "text": "같이",
+          "pronunciation": "가치",
+          "rules": [
+            "palatalization"
+          ],
+          "note": "ㅌ pred 이 znie ako ㅊ"
+        },
+        {
+          "text": "잠을",
+          "pronunciation": "자믈",
+          "rules": [
+            "liaison"
+          ],
+          "note": "ㅁ sa presúva do ďalšej slabiky"
+        }
+      ]
+    }
+  ],
+  "updated": "2026-10-16T17:00:14+00:00"
+}

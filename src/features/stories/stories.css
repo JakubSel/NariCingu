@@ -1,0 +1,89 @@
+/* Príbehy (Ilgi, 읽기) – prevzaté z Korean Story Lab.
+   Celadon (청자) paleta: zelenkavý papier, bridlicový atrament, žltý zvýrazňovač pre „práve znie“.
+   Premenné sú len pod .ilgi-reader, aby nekolidovali so zvyškom aplikácie. Hodnoty sú RGB kanály,
+   aby fungovali Tailwind v3 farby s priehľadnosťou (bg-paper/95), pozri tailwind.config.js. */
+.ilgi-reader {
+  --paper: 237 241 236; /* #edf1ec */
+  --surface: 248 250 247; /* #f8faf7 */
+  --ink: 30 43 47; /* #1e2b2f */
+  --muted: 86 100 95; /* #56645f */
+  --line: 203 213 206; /* #cbd5ce */
+  --celadon: 63 122 107; /* #3f7a6b */
+  --celadon-ink: 248 250 247; /* #f8faf7 */
+  --celadon-soft: 214 230 223; /* #d6e6df */
+  --marker: 243 223 138; /* #f3df8a */
+  --marker-ink: 30 43 47; /* #1e2b2f */
+  --plum: 123 74 106; /* #7b4a6a */
+  --font-ilgi-sans: 'Atkinson Hyperlegible Next', 'Atkinson Hyperlegible', 'Segoe UI', system-ui, sans-serif;
+  --font-ilgi-ko: 'Gowun Batang', 'Batang', 'AppleMyungjo', 'Noto Serif KR', serif;
+
+  color: rgb(var(--ink));
+  font-family: var(--font-ilgi-sans);
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+/* Tmavý režim sleduje triedu .dark na <html> (Layout.tsx). */
+.dark .ilgi-reader {
+  --paper: 20 29 32; /* #141d20 */
+  --surface: 27 38 42; /* #1b262a */
+  --ink: 226 234 230; /* #e2eae6 */
+  --muted: 154 170 166; /* #9aaaa6 */
+  --line: 46 61 65; /* #2e3d41 */
+  --celadon: 130 195 177; /* #82c3b1 */
+  --celadon-ink: 15 26 28; /* #0f1a1c */
+  --celadon-soft: 35 65 58; /* #23413a */
+  --marker: 91 79 31; /* #5b4f1f */
+  --marker-ink: 251 243 210; /* #fbf3d2 */
+  --plum: 219 169 202; /* #dba9ca */
+}
+
+/* Kórejský text: knižný serif, riadky sa lámu medzi slovami (어절), nikdy vnútri. */
+.ilgi-reader .ko {
+  font-family: var(--font-ilgi-ko);
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  line-break: strict;
+}
+
+/* Zvýrazňovač na vete (alebo slove), ktorá práve znie. */
+.ilgi-reader .marker {
+  background-image: linear-gradient(rgb(var(--marker)), rgb(var(--marker)));
+  background-repeat: no-repeat;
+  background-position: 0 85%;
+  background-size: 0% 0.9em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  border-radius: 0.2em;
+  padding: 0 0.08em;
+  margin: 0 -0.08em;
+  transition: background-size 420ms cubic-bezier(0.3, 0.7, 0.2, 1), color 200ms;
+}
+.ilgi-reader .marker[data-on='true'] {
+  background-size: 100% 0.9em;
+  color: rgb(var(--marker-ink));
+}
+.ilgi-reader .word-marker {
+  border-radius: 0.2em;
+  transition: background-color 120ms;
+}
+.ilgi-reader .word-marker[data-on='true'] {
+  background-color: rgb(var(--marker));
+  color: rgb(var(--marker-ink));
+}
+
+.ilgi-reader :focus-visible {
+  outline: 2px solid rgb(var(--celadon));
+  outline-offset: 2px;
+}
+
+.ilgi-reader input[type='range'] {
+  accent-color: rgb(var(--celadon));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ilgi-reader .marker,
+  .ilgi-reader .word-marker {
+    transition: none;
+  }
+}

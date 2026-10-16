@@ -3,6 +3,7 @@ import { MonitorIcon, MoonIcon, SunIcon } from '../components/Icons';
 import PlayButton from '../components/PlayButton';
 import { PageHeader } from '../components/ui';
 import { koreanVoices, onVoicesChanged, ttsSupported } from '../lib/audio';
+import { storiesStore } from '../features/stories/lib/store';
 import { progressStore, type Progress } from '../lib/progress';
 import { updateSettings, useSettings, type Theme } from '../lib/settings';
 import { cn } from '../lib/utils';
@@ -21,7 +22,9 @@ export default function Settings() {
   const fileRef = useRef<HTMLInputElement>(null);
 
   function exportProgress() {
-    const blob = new Blob([JSON.stringify(progressStore.get(), null, 2)], { type: 'application/json' });
+    // v2: pokrok aj príbehy v jednom súbore (v1 obsahoval len samotný pokrok)
+    const backup = { app: 'naricingu', backup: 2, progress: progressStore.get(), stories: storiesStore.get() };
+    const blob = new Blob([JSON.stringify(backup, null, 2)], { type: 'application/json' });
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
     a.download = `naricingu-pokrok-${new Date().toISOString().slice(0, 10)}.json`;
@@ -31,9 +34,12 @@ export default function Settings() {
 
   async function importProgress(file: File) {
     try {
-      const data = JSON.parse(await file.text()) as Progress;
-      if (data?.v !== 1 || typeof data.sounds !== 'object') throw new Error();
-      progressStore.replace(data);
+      const data = JSON.parse(await file.text());
+      // nová záloha { progress, stories } alebo stará, ktorá je priamo objekt pokroku
+      const progress = (data?.backup === 2 ? data.progress : data) as Progress;
+      if (progress?.v !== 1 || typeof progress.sounds !== 'object') throw new Error();
+      progressStore.replace(progress);
+      if (data?.backup === 2 && data.stories && typeof data.stories === 'object') storiesStore.replace(data.stories);
       setMsg('Pokrok bol úspešne načítaný.');
     } catch {
       setMsg('Súbor sa nepodarilo načítať – nie je to záloha z NariCingu.');
@@ -134,7 +140,7 @@ export default function Settings() {
 
       <section className="card p-5">
         <h2 className="mb-1 font-bold">Pokrok</h2>
-        <p className="mb-4 text-sm text-slate-500">Pokrok sa ukladá v localStorage tohto prehliadača. Zálohu si môžeš stiahnuť a preniesť do iného zariadenia.</p>
+        <p className="mb-4 text-sm text-slate-500">Pokrok (vrátane príbehov – obľúbené a rozčítané pozície) sa ukladá v localStorage tohto prehliadača. Zálohu si môžeš stiahnuť a preniesť do iného zariadenia.</p>
         <div className="flex flex-wrap gap-2">
           <button className="btn-secondary" onClick={exportProgress}>
             Stiahnuť zálohu
@@ -164,6 +170,7 @@ export default function Settings() {
                 className="btn bg-rose-600 px-3 py-1.5 text-white hover:bg-rose-700"
                 onClick={() => {
                   progressStore.reset();
+                  storiesStore.reset();
                   setConfirmReset(false);
                   setMsg('Pokrok bol vymazaný.');
                 }}

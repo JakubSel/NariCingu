@@ -1,0 +1,17 @@
+# Textové súbory v repozitári vždy s LF (bez varovaní LF/CRLF na Windowse).
+* text=auto eol=lf
+
+# Binárne súbory – git ich nikdy neupravuje ani neporovnáva ako text.
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.m4a binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.pdf binary

@@ -100,7 +100,7 @@ export default function VocabularyCategory() {
               Skryť preklady (samotest)
             </label>
           </div>
-          <div className="grid gap-3 md:grid-cols-2">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
             {order.map((w) => (
               <WordCard key={w.ko} w={w} hide={hide} />
             ))}
